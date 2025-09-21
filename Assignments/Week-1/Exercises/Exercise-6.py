@@ -4,12 +4,26 @@ Write a script that lists all the prime numbers between 1 and 10000.
 Hint: Write an is_factor helper function.
 """
 
-def is_factor(d, n):
+
+def is_factor(divisore, numero):
     """True iff (if and only if) d is a divisor of n."""
-    pass
+    return numero % divisore == 0
 
-def is_prime(n):
-    pass
 
-list_of_primes = []
-print(list_of_primes)
+def is_prime(numero):
+    if numero < 2:
+        return False
+
+    for fattore in range(2, int(numero ** 0.5) + 1):
+        if is_factor(fattore, numero):
+            return False
+
+    return True
+
+
+lista_primi = []
+for num in range(1, 10001):
+    if is_prime(num):
+        lista_primi.append(num)
+
+print(lista_primi)
