@@ -13,6 +13,9 @@ Task:
 ------
 Write a for-loop that prints out the following line 20 times:
  All work and no play makes Jack a dull boy.
+ 
+for i in range(20):
+    print("All work and no play makes Jack a dull boy.")
 """
 
 print("Exercise 2.1")
@@ -26,6 +29,9 @@ Exercise 2.2
 Task:
 ------
 Write a for-loop that prints out the numbers from 0 up to 5 inclusive.
+
+for i in range(6):
+    print(i)
 """
 
 print("Exercise 2.2")
@@ -41,6 +47,9 @@ Exercise 2.3
 Task:
 ------
 Write a for-loop that prints out the EVEN numbers from 2 up to 8 inclusive.
+for i in range(2,9):
+    if(i%2 == 0):
+        print(i)
 """
 
 print("Exercise 2.3")
@@ -55,6 +64,10 @@ Exercise 2.4
 Task:
 ------
 Now write another loop to print 9 through 0 (i.e., backwards).
+i=9
+while i>=0
+   print(i)
+   i=i-1 
 """
 
 print("Exercise 2.4")
@@ -77,6 +90,9 @@ Write code that prints out the following sequence:
  zzzzzz
  zzzzzzz
  zzzzzzzz
+ 
+for i in range(9):
+    print("z"*i)
 """
 
 print("Exercise 2.5")
@@ -101,6 +117,11 @@ Hint: The function print takes an argument called 'end', which specifies what
 to print at the end of the input string. By default, this parameter is set to \n, 
 which is why the script moves automatically to a new line after the execution
 of a simple print-statement.
+
+for i in range(1,6):
+#    print(i)
+    for b in range(1, i + 1):
+        print(b, end="")
 ------
 """
 
@@ -130,6 +151,13 @@ You should be able to give any value to row and see a triangle made out of 'o's.
 Hint: Before you start coding, think what set of instructions (algorithm) 
 your code needs to carry out for a certain value of rows.
 ------
+
+
+row = 5
+for i in range(1, row+1):
+    spaces = ' ' * (row - i)
+    os = 'o' * (2 * i - 1)
+    print(f"{spaces}{os}")
 """
 
 print("Exercise 2.7")
@@ -161,6 +189,16 @@ You should be able to give any value to row and see a pyramid.
 Hint: One of the two links at the top of this script contains helpful information
 on how to align the numbers.
 ------
+
+rows = 10
+cols = 10
+
+for i in range(1, rows + 1):
+    for j in range(1, cols + 1):
+        product = i * j
+        print(f"{product:<4}", end="")
+    print()
+
 """
 
 print("Exercise 2.8")

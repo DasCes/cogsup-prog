@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Sep 21 2025 15:48:23
+#sha1: 5c3253
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+20289,stderr,received,'Traceback (most recent call last):'
+20289,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-2\\Exercises\\square.py", line 28, in <module>'
+20289,stderr,received,'    control.start(subject_id=1)'
+20289,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 209, in start'
+20294,stderr,received,'    experiment.keyboard.wait()'
+20294,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 371, in wait'
+20295,stderr,received,'    if isinstance(rtn_callback, _internals.CallbackQuitEvent):'
+20295,stderr,received,'KeyboardInterrupt'
