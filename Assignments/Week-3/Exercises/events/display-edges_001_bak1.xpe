@@ -1,17 +1,16 @@
 #Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
-#date: Wed Sep 24 2025 15:42:07
-#sha1: bf2ecb
+#date: Wed Sep 24 2025 16:33:36
+#sha1: b8abe0
 #modules: 
 #display: size=(800, 600), window_mode=True, opengl=2
 #os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
 Time,Type,Event,Value,Detail,Detail2
-3025,design,log,
-#design: #exp: Square
+1917,design,log,
+#design: #exp: display-edges
 #design: block_cnt,block_id,trial_cnt,trial_id
-3025,design,logged,
-3025,Experiment,started
-3026,Stimulus,presented,1
-3028,Stimulus,presented,0
-3530,Stimulus,presented,1
-6497,Keyboard,received,32,wait
-6497,Experiment,ended
+1917,design,logged,
+1917,Experiment,started
+1919,Stimulus,presented,0
+1920,Stimulus,presented,1
+2485,Keyboard,received,32,wait
+2485,Experiment,ended

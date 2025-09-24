@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 16:29:47
+#sha1: 069db8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+708,stderr,received,'Traceback (most recent call last):'
+708,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\display-edges.py", line 77, in <module>'
+708,stderr,received,'    draw_square_outline(canvas, top_pos, square_size, red_color, line_width)'
+708,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\display-edges.py", line 57, in draw_square_outline'
+708,stderr,received,'    canvas_obj.draw_line(top_left, top_right, line_width=line_width, line_color=line_color)'
+708,stderr,received,"AttributeError: 'Canvas' object has no attribute 'draw_line'"

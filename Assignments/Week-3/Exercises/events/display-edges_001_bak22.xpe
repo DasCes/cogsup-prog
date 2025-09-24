@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 17:34:56
+#sha1: f55ade
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+578,stdout,received,'width, height:  800 600'
+5423,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+5423,design,logged,
+5423,Experiment,started
+5427,Stimulus,presented,0
+5429,Stimulus,presented,1
+5430,Stimulus,presented,2
+5431,Stimulus,presented,3
+10040,Keyboard,received,32,wait
+10040,Experiment,ended

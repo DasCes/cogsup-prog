@@ -1,10 +1,15 @@
 """
 Exercise 1: Superimposed objects
-In Assignments/Exercises, you will find a python script called square.py. Based on the example script above (circle.py), create a script that displays a fixation cross inside a blue square of length 50 for half a second, then removes the fixation cross and displays only the blue square of length 50 until a key is pressed.
+In Assignments/Exercises, you will find a python script called square.py. Based on the
+example script above (circle.py), create a script that displays a fixation cross inside
+a blue square of length 50 for half a second, then removes the fixation cross and
+ displays only the blue square of length 50 until a key is pressed.
 
 Hints:
 
-You might want to have a look at expyriment's stimuli.Rectangle documentation: the color of the square can be set when initializing the object (note that expyriment uses UK spelling, so use colour instead of color)
+You might want to have a look at expyriment's stimuli.Rectangle documentation: the color
+of the square can be set when initializing the object (note that expyriment uses UK
+spelling, so use colour instead of color)
 Mind the arguments you pass to present
 """
 
@@ -27,19 +32,16 @@ square = stimuli.Rectangle(size=(50,50), colour='blue')
 # Start running the experiment
 control.start(subject_id=1)
 
-# Present the fixation cross with rectalgle
-# square.present(clear=True, update=False)
-# fixation.present(clear=False, update=True)
-
-fixation.present(clear=True, update=False)
-square.present(clear=False, update=True)
+# Present the fixation cross and at the same time the square
+square.present(clear=False, update=False)
+fixation.present(clear=False, update=True)
 
 
 # Leave it on-screen for 500 ms
 exp.clock.wait(500)
 
 
-# square.present(clear=False, update=True)
+square.present(clear=True, update=True)
 
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()

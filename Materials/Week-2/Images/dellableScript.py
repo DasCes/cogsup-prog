@@ -3,7 +3,6 @@ from expyriment import design, control, stimuli
 
 control.set_develop_mode() #this will fast the initial process
 
-
 # Create an object of class Experiment: This stores the global settings of your experiment & handles the data file, screen, and input devices
 exp = design.Experiment(name = "Circle")
 

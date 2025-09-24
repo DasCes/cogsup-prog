@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 16:16:23
+#sha1: d7895e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+634,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000018C1F976A70>'
+634,stderr,received,'Traceback (most recent call last):'
+634,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+634,stderr,received,'    if self._compression_filename is not None:'
+634,stderr,received,"AttributeError: 'Rectangle' object has no attribute '_compression_filename'"
+634,stderr,received,'Traceback (most recent call last):'
+634,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\display-edges.py", line 44, in <module>'
+634,stderr,received,'    top_square = stimuli.Rectangle(size=(square_size, square_size), colour=None, line_color=(255, 0, 0), line_width=1, position=top_position)'
+634,stderr,received,"TypeError: Rectangle.__init__() got an unexpected keyword argument 'line_color'"
