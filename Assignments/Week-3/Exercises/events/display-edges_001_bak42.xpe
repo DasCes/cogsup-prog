@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 20:07:58
+#sha1: 679c78
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+407,stdout,received,'width, height:  800 600'
+1081,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+1081,design,logged,
+1081,Experiment,started
+1082,Stimulus,presented,0
+1083,Stimulus,presented,1
+1084,Stimulus,presented,2
+1085,Stimulus,presented,3
+20284,stderr,received,'Traceback (most recent call last):'
+20284,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\display-edges.py", line 38, in <module>'
+20284,stderr,received,'    exp.keyboard.wait()'
+20284,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 370, in wait'
+20285,stderr,received,'    rtn_callback = _internals.active_exp._execute_wait_callback()'
+20285,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\design\\_structure.py", line 1168, in _execute_wait_callback'
+20286,stderr,received,'    if self._wait_callback_function is not None:'
+20286,stderr,received,'KeyboardInterrupt'

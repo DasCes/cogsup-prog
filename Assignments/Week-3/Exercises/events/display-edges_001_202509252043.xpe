@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 20:43:20
+#sha1: 8fb8c2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2923,stdout,received,'screen width: '
+2923,stdout,received,' 1920'
+2923,stdout,received,'screen height: '
+2923,stdout,received,' 1080'
+2923,stdout,received,'square size:  95'
+2923,stdout,received,'inner square size: 93.5'

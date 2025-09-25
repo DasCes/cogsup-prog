@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 20:31:24
+#sha1: 66017b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+426,stdout,received,'screen width: '
+426,stdout,received,' 800'
+426,stdout,received,'screen height: '
+426,stdout,received,' 600'
+1361,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+1362,design,logged,
+1362,Experiment,started
+1363,Stimulus,presented,0
+1364,Stimulus,presented,1
+1365,Stimulus,presented,2
+1365,Stimulus,presented,3
+1366,Stimulus,presented,4
+1367,Stimulus,presented,5
+1368,Stimulus,presented,6
+1370,Stimulus,presented,7
+163070,stderr,received,'Traceback (most recent call last):'
+163070,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\display-edges.py", line 58, in <module>'
+163071,stderr,received,'    exp.keyboard.wait()'
+163071,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+163071,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+163071,stderr,received,'KeyboardInterrupt'
