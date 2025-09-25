@@ -1,0 +1,29 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 22:14:34
+#sha1: 869f65
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+502,stdout,received,'Rectangle size: 225 x 150'
+502,stdout,received,'Aspect ratio: 1.5'
+502,stdout,received,'Circle radius: 39'
+502,stdout,received,'Corner positions: [[112, 75], [112, -75], [-112, 75], [-112, -75]]'
+932,design,log,
+#design: #exp: kanizsa-rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+932,design,logged,
+932,Experiment,started
+933,Stimulus,presented,1
+933,Stimulus,presented,2
+934,Stimulus,presented,3
+935,Stimulus,presented,4
+936,Stimulus,presented,0
+96512,stderr,received,'Traceback (most recent call last):'
+96512,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\sadf.py", line 74, in <module>'
+96512,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\sadf.py", line 69, in kanizsa_rectangle'
+96512,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 376, in wait'
+96513,stderr,received,'    _internals.active_exp.mouse.process_quit_event():'
+96513,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\design\\_structure.py", line 189, in mouse'
+96513,stderr,received,'    @property'
+96513,stderr,received,'KeyboardInterrupt'

@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 22:07:43
+#sha1: 0b98d0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+810,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+810,design,logged,
+810,Experiment,started
+812,Stimulus,presented,1
+813,Stimulus,presented,2
+814,Stimulus,presented,3
+815,Stimulus,presented,4
+824,Stimulus,presented,0
+505516,stderr,received,'Traceback (most recent call last):'
+505516,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\kazanizsa_rectangle.py", line 33, in <module>'
+505516,stderr,received,'    print(f"Corner positions: {square_corners}")'
+505516,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+505516,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+505516,stderr,received,'KeyboardInterrupt'

@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 22:05:06
+#sha1: d59141
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1216,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+1216,design,logged,
+1216,Experiment,started
+1218,Stimulus,presented,1
+1219,Stimulus,presented,2
+1220,Stimulus,presented,3
+1221,Stimulus,presented,4
+1234,Stimulus,presented,0
+155420,stderr,received,'Traceback (most recent call last):'
+155420,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\kazanizsa_rectangle.py", line 33, in <module>'
+155420,stderr,received,'    exp.keyboard.wait()'
+155420,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+155421,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+155421,stderr,received,'KeyboardInterrupt'

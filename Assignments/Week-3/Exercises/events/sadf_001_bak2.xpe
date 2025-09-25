@@ -1,0 +1,31 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 22:14:13
+#sha1: dc7e0c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+522,stdout,received,'Rectangle size: 225 x 150'
+522,stdout,received,'Aspect ratio: 1.5'
+522,stdout,received,'Circle radius: 21'
+523,stdout,received,'Corner positions: [[112, 75], [112, -75], [-112, 75], [-112, -75]]'
+1596,design,log,
+#design: #exp: kanizsa-rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+1596,design,logged,
+1596,Experiment,started
+1597,Stimulus,presented,1
+1597,Stimulus,presented,2
+1598,Stimulus,presented,3
+1598,Stimulus,presented,4
+1600,Stimulus,presented,0
+18833,stderr,received,'Traceback (most recent call last):'
+18833,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\sadf.py", line 74, in <module>'
+18833,stderr,received,'    kanizsa_rectangle(aspect_ratio=1.5, rectangle_scale=1.0, circle_scale=1.2)'
+18833,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-3\\Exercises\\sadf.py", line 69, in kanizsa_rectangle'
+18833,stderr,received,'    exp.keyboard.wait()'
+18833,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 369, in wait'
+18834,stderr,received,'    if _internals.active_exp.is_initialised:'
+18834,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\design\\_structure.py", line 207, in is_initialised'
+18834,stderr,received,'    @property'
+18834,stderr,received,'KeyboardInterrupt'
