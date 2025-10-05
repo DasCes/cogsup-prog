@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 11:44:59
+#sha1: d801f4
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+643,stderr,received,'Traceback (most recent call last):'
+643,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 54, in <module>'
+644,stderr,received,'    durations_drawing = timed_draw(fixation)'
+644,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 26, in timed_draw'
+644,stderr,received,'    for stim in stims:'
+644,stderr,received,"TypeError: 'FixCross' object is not iterable"

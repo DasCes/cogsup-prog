@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 04 2025 23:19:27
+#sha1: ae370b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+378,Stimulus,presented,0
+1381,Stimulus,presented,1
+2383,Stimulus,presented,2
+2389,Stimulus,presented,3
+60819,stderr,received,'Traceback (most recent call last):'
+60819,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\timing_puzzle.py", line 41, in <module>'
+60820,stderr,received,'    exp.keyboard.wait()'
+60820,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+60820,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+60820,stderr,received,'KeyboardInterrupt'

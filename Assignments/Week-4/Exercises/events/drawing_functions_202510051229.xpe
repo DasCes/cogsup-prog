@@ -1,0 +1,71 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 12:29:37
+#sha1: d383ab
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+438,Stimulus,presented,0
+439,Stimulus,presented,1
+440,Stimulus,presented,2
+440,Stimulus,presented,3
+440,Stimulus,presented,4
+440,Stimulus,presented,5
+440,Stimulus,presented,6
+440,Stimulus,presented,7
+440,Stimulus,presented,8
+440,Stimulus,presented,9
+440,Stimulus,presented,10
+441,Stimulus,presented,11
+441,Stimulus,presented,12
+441,Stimulus,presented,13
+441,Stimulus,presented,14
+441,Stimulus,presented,15
+441,Stimulus,presented,16
+441,Stimulus,presented,17
+441,Stimulus,presented,18
+441,Stimulus,presented,19
+441,Stimulus,presented,20
+442,Stimulus,presented,0
+442,Stimulus,presented,1
+943,Stimulus,presented,0
+943,Stimulus,presented,2
+1442,Stimulus,presented,0
+1442,Stimulus,presented,3
+1943,Stimulus,presented,0
+1943,Stimulus,presented,4
+2442,Stimulus,presented,0
+2443,Stimulus,presented,5
+2942,Stimulus,presented,0
+2942,Stimulus,presented,6
+3442,Stimulus,presented,0
+3442,Stimulus,presented,7
+3942,Stimulus,presented,0
+3943,Stimulus,presented,8
+4442,Stimulus,presented,0
+4442,Stimulus,presented,9
+4942,Stimulus,presented,0
+4943,Stimulus,presented,10
+5442,Stimulus,presented,0
+5442,Stimulus,presented,11
+5942,Stimulus,presented,0
+5942,Stimulus,presented,12
+6442,Stimulus,presented,0
+6443,Stimulus,presented,13
+6942,Stimulus,presented,0
+6942,Stimulus,presented,14
+7442,Stimulus,presented,0
+7443,Stimulus,presented,15
+7942,Stimulus,presented,0
+7942,Stimulus,presented,16
+8443,Stimulus,presented,0
+8443,Stimulus,presented,17
+8942,Stimulus,presented,0
+8942,Stimulus,presented,18
+9443,Stimulus,presented,0
+9443,Stimulus,presented,19
+9943,Stimulus,presented,0
+9943,Stimulus,presented,20
+10442,stdout,received,'The presentation process at screen takes: [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500] seconds'
+10442,Experiment,ended
+10481,Stimulus,presented,21

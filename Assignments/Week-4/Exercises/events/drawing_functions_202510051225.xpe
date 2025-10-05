@@ -1,0 +1,74 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 12:25:55
+#sha1: 0d3820
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+422,Stimulus,presented,0
+423,stdout,received,'the drawing process for cross takes:  2 seconds'
+423,Stimulus,presented,1
+423,Stimulus,presented,2
+423,Stimulus,presented,3
+423,Stimulus,presented,4
+423,Stimulus,presented,5
+423,Stimulus,presented,6
+424,Stimulus,presented,7
+424,Stimulus,presented,8
+424,Stimulus,presented,9
+424,Stimulus,presented,10
+424,Stimulus,presented,11
+424,Stimulus,presented,12
+424,Stimulus,presented,13
+424,Stimulus,presented,14
+424,Stimulus,presented,15
+424,Stimulus,presented,16
+425,Stimulus,presented,17
+425,Stimulus,presented,18
+425,Stimulus,presented,19
+425,Stimulus,presented,20
+426,stdout,received,'the drawing process for squares takes:  3 seconds'
+427,Stimulus,presented,0
+427,Stimulus,presented,1
+926,Stimulus,presented,0
+927,Stimulus,presented,2
+1427,Stimulus,presented,0
+1427,Stimulus,presented,3
+1927,Stimulus,presented,0
+1927,Stimulus,presented,4
+2426,Stimulus,presented,0
+2427,Stimulus,presented,5
+2926,Stimulus,presented,0
+2927,Stimulus,presented,6
+3427,Stimulus,presented,0
+3427,Stimulus,presented,7
+3926,Stimulus,presented,0
+3926,Stimulus,presented,8
+4426,Stimulus,presented,0
+4426,Stimulus,presented,9
+4926,Stimulus,presented,0
+4927,Stimulus,presented,10
+5427,Stimulus,presented,0
+5427,Stimulus,presented,11
+5926,Stimulus,presented,0
+5926,Stimulus,presented,12
+6427,Stimulus,presented,0
+6427,Stimulus,presented,13
+6926,Stimulus,presented,0
+6926,Stimulus,presented,14
+7427,Stimulus,presented,0
+7427,Stimulus,presented,15
+7926,Stimulus,presented,0
+7926,Stimulus,presented,16
+8426,Stimulus,presented,0
+8426,Stimulus,presented,17
+8926,Stimulus,presented,0
+8926,Stimulus,presented,18
+9426,Stimulus,presented,0
+9426,Stimulus,presented,19
+9926,Stimulus,presented,0
+9926,Stimulus,presented,20
+10426,stdout,received,'The presentation process at screen takes: [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500] seconds'
+12586,Keyboard,received,32,wait
+12586,Experiment,ended
+12626,Stimulus,presented,21

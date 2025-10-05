@@ -1,0 +1,32 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 12:03:02
+#sha1: ca370f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+412,Stimulus,presented,0
+412,stdout,received,'the drawing process for cross takes:  0.001 seconds'
+412,Stimulus,presented,1
+412,Stimulus,presented,2
+412,Stimulus,presented,3
+412,Stimulus,presented,4
+412,Stimulus,presented,5
+412,Stimulus,presented,6
+412,Stimulus,presented,7
+412,Stimulus,presented,8
+413,Stimulus,presented,9
+413,Stimulus,presented,10
+413,Stimulus,presented,11
+413,Stimulus,presented,12
+413,Stimulus,presented,13
+413,Stimulus,presented,14
+413,Stimulus,presented,15
+413,Stimulus,presented,16
+413,Stimulus,presented,17
+414,Stimulus,presented,18
+414,Stimulus,presented,19
+414,Stimulus,presented,20
+414,stdout,received,'the drawing process for squares takes:  0.002 seconds'
+414,Experiment,ended
+417,Stimulus,presented,21

@@ -32,17 +32,7 @@ def kanizsa_rectangle(aspect_ratio, rectangle_scale, circle_scale):
     print(f"Circle radius: {circle_radius}")
     print(f"Corner positions: {square_corners}")
 
-
-
-
-
-
-    rectangle = stimuli.Rectangle(
-        size=(rect_width, rect_height),
-        colour=bg
-    )
-
-
+    rectangle = stimuli.Rectangle(size=(rect_width, rect_height),colour=bg)
     rightUp_circle = stimuli.Circle(radius=circle_radius,colour=(0, 0, 0),position=square_corners[0])
     rightDown_circle = stimuli.Circle(radius=circle_radius,colour=(255, 255, 255),position=square_corners[1])
     leftUp_circle = stimuli.Circle(radius=circle_radius,colour=(0, 0, 0),position=square_corners[2])

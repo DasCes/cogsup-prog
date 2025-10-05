@@ -1,0 +1,72 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 12:27:29
+#sha1: 2d9291
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+392,Stimulus,presented,0
+394,stdout,received,'the drawing process for cross takes:  0.001 seconds'
+394,Stimulus,presented,1
+394,Stimulus,presented,2
+394,Stimulus,presented,3
+394,Stimulus,presented,4
+394,Stimulus,presented,5
+394,Stimulus,presented,6
+394,Stimulus,presented,7
+395,Stimulus,presented,8
+395,Stimulus,presented,9
+395,Stimulus,presented,10
+395,Stimulus,presented,11
+395,Stimulus,presented,12
+395,Stimulus,presented,13
+395,Stimulus,presented,14
+395,Stimulus,presented,15
+395,Stimulus,presented,16
+396,Stimulus,presented,17
+396,Stimulus,presented,18
+396,Stimulus,presented,19
+396,Stimulus,presented,20
+397,stdout,received,'the drawing process for squares takes:  0.003 seconds'
+397,Stimulus,presented,0
+398,Stimulus,presented,1
+897,Stimulus,presented,0
+897,Stimulus,presented,2
+1397,Stimulus,presented,0
+1397,Stimulus,presented,3
+1898,Stimulus,presented,0
+1898,Stimulus,presented,4
+2397,Stimulus,presented,0
+2397,Stimulus,presented,5
+2897,Stimulus,presented,0
+2897,Stimulus,presented,6
+3398,Stimulus,presented,0
+3398,Stimulus,presented,7
+3897,Stimulus,presented,0
+3897,Stimulus,presented,8
+4397,Stimulus,presented,0
+4397,Stimulus,presented,9
+4897,Stimulus,presented,0
+4897,Stimulus,presented,10
+5397,Stimulus,presented,0
+5397,Stimulus,presented,11
+5897,Stimulus,presented,0
+5897,Stimulus,presented,12
+6398,Stimulus,presented,0
+6398,Stimulus,presented,13
+6897,Stimulus,presented,0
+6897,Stimulus,presented,14
+7397,Stimulus,presented,0
+7398,Stimulus,presented,15
+7897,Stimulus,presented,0
+7897,Stimulus,presented,16
+8397,Stimulus,presented,0
+8397,Stimulus,presented,17
+8897,Stimulus,presented,0
+8897,Stimulus,presented,18
+9397,Stimulus,presented,0
+9398,Stimulus,presented,19
+9897,Stimulus,presented,0
+9897,Stimulus,presented,20
+10397,Experiment,ended
+10417,Stimulus,presented,21
