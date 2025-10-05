@@ -32,21 +32,13 @@ def timed_draw(stims):
 
 
 def present_for(stims, t=1000):
-    # show stimoli for t ms
-    time_before = exp.clock.time
 
-    # DEVE disegnare gli stimoli
-    exp.screen.clear()
-    for stim in stims:
-        stim.present(clear=False, update=False)
-    exp.screen.update()
+    dur = timed_draw(stims) #call here the method the give the actual process of drawing
 
-    # compute the actual time required
-    drawing_time = exp.clock.time - time_before
-    remaining = t - drawing_time
+    remaining_time = t - dur
+    if remaining_time > 0:
+        exp.clock.wait(remaining_time)
 
-    if remaining > 0:
-        exp.clock.wait(remaining)
 
 
 """ Test functions """
@@ -65,14 +57,15 @@ positions = [(random.randint(-300, 300), random.randint(-300, 300)) for _ in ran
 squares = [stimuli.Rectangle(size=(50, 50), position = pos) for pos in positions]
 load(squares)
 
+# print(len(squares))
 
 # draw the fixations cross and squares, for semplicity here i can create something like stims = [fixation, square]
 # but since i want to differ the print ive done the two call separately
-durations_drawing = timed_draw([fixation])
-print(f"the drawing process for cross takes:  {durations_drawing/1000} seconds")
+# durations_drawing = timed_draw([fixation])
+# print(f"the drawing process for cross takes:  {durations_drawing/1000} seconds")
 
-durations_drawing = timed_draw(squares)
-print(f"the drawing process for squares takes:  {durations_drawing/1000} seconds")
+# durations_drawing = timed_draw(squares)
+# print(f"the drawing process for squares takes:  {durations_drawing/1000} seconds")
 
 
 durations = []

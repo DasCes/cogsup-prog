@@ -1,0 +1,51 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 23:38:20
+#sha1: ea599e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+627,stdout,received,'20'
+628,Stimulus,presented,0
+628,Stimulus,presented,1
+1128,Stimulus,presented,0
+1128,Stimulus,presented,2
+1627,Stimulus,presented,0
+1628,Stimulus,presented,3
+2128,Stimulus,presented,0
+2128,Stimulus,presented,4
+2627,Stimulus,presented,0
+2627,Stimulus,presented,5
+3127,Stimulus,presented,0
+3127,Stimulus,presented,6
+3628,Stimulus,presented,0
+3628,Stimulus,presented,7
+4127,Stimulus,presented,0
+4127,Stimulus,presented,8
+4627,Stimulus,presented,0
+4628,Stimulus,presented,9
+5127,Stimulus,presented,0
+5127,Stimulus,presented,10
+5628,Stimulus,presented,0
+5628,Stimulus,presented,11
+6127,Stimulus,presented,0
+6127,Stimulus,presented,12
+6627,Stimulus,presented,0
+6627,Stimulus,presented,13
+7127,Stimulus,presented,0
+7127,Stimulus,presented,14
+7627,Stimulus,presented,0
+7627,Stimulus,presented,15
+8128,Stimulus,presented,0
+8128,Stimulus,presented,16
+8628,Stimulus,presented,0
+8628,Stimulus,presented,17
+9127,Stimulus,presented,0
+9128,Stimulus,presented,18
+9628,Stimulus,presented,0
+9628,Stimulus,presented,19
+10128,Stimulus,presented,0
+10128,Stimulus,presented,20
+10627,stdout,received,'The presentation process at screen takes: [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500] seconds'
+10627,Experiment,ended
+10666,Stimulus,presented,21
