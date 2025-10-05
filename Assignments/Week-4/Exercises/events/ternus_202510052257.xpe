@@ -1,0 +1,232 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 22:57:31
+#sha1: dfcd79
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+615,stdout,received,'the circles will be presented for: {time_ms} ms'
+616,Stimulus,presented,0
+616,Stimulus,presented,1
+616,Stimulus,presented,2
+715,stdout,received,'the circles will be presented for: {time_ms} ms'
+732,stdout,received,'the circles will be presented for: {time_ms} ms'
+732,Stimulus,presented,3
+732,Stimulus,presented,4
+733,Stimulus,presented,5
+832,stdout,received,'the circles will be presented for: {time_ms} ms'
+849,stdout,received,'the circles will be presented for: {time_ms} ms'
+851,Stimulus,presented,0
+851,Stimulus,presented,1
+852,Stimulus,presented,2
+949,stdout,received,'the circles will be presented for: {time_ms} ms'
+966,stdout,received,'the circles will be presented for: {time_ms} ms'
+966,Stimulus,presented,3
+966,Stimulus,presented,4
+966,Stimulus,presented,5
+1066,stdout,received,'the circles will be presented for: {time_ms} ms'
+1083,stdout,received,'the circles will be presented for: {time_ms} ms'
+1084,Stimulus,presented,0
+1084,Stimulus,presented,1
+1084,Stimulus,presented,2
+1183,stdout,received,'the circles will be presented for: {time_ms} ms'
+1200,stdout,received,'the circles will be presented for: {time_ms} ms'
+1201,Stimulus,presented,3
+1201,Stimulus,presented,4
+1201,Stimulus,presented,5
+1300,stdout,received,'the circles will be presented for: {time_ms} ms'
+1316,stdout,received,'the circles will be presented for: {time_ms} ms'
+1317,Stimulus,presented,0
+1317,Stimulus,presented,1
+1317,Stimulus,presented,2
+1416,stdout,received,'the circles will be presented for: {time_ms} ms'
+1433,stdout,received,'the circles will be presented for: {time_ms} ms'
+1433,Stimulus,presented,3
+1433,Stimulus,presented,4
+1433,Stimulus,presented,5
+1533,stdout,received,'the circles will be presented for: {time_ms} ms'
+1550,stdout,received,'the circles will be presented for: {time_ms} ms'
+1550,Stimulus,presented,0
+1550,Stimulus,presented,1
+1550,Stimulus,presented,2
+1650,stdout,received,'the circles will be presented for: {time_ms} ms'
+1667,stdout,received,'the circles will be presented for: {time_ms} ms'
+1667,Stimulus,presented,3
+1668,Stimulus,presented,4
+1668,Stimulus,presented,5
+1767,stdout,received,'the circles will be presented for: {time_ms} ms'
+1784,stdout,received,'the circles will be presented for: {time_ms} ms'
+1784,Stimulus,presented,0
+1785,Stimulus,presented,1
+1785,Stimulus,presented,2
+1884,stdout,received,'the circles will be presented for: {time_ms} ms'
+1901,stdout,received,'the circles will be presented for: {time_ms} ms'
+1901,Stimulus,presented,3
+1901,Stimulus,presented,4
+1901,Stimulus,presented,5
+2001,stdout,received,'the circles will be presented for: {time_ms} ms'
+2019,stdout,received,'the circles will be presented for: {time_ms} ms'
+2019,Stimulus,presented,0
+2019,Stimulus,presented,1
+2019,Stimulus,presented,2
+2119,stdout,received,'the circles will be presented for: {time_ms} ms'
+2136,stdout,received,'the circles will be presented for: {time_ms} ms'
+2137,Stimulus,presented,3
+2137,Stimulus,presented,4
+2137,Stimulus,presented,5
+2236,stdout,received,'the circles will be presented for: {time_ms} ms'
+2252,stdout,received,'the circles will be presented for: {time_ms} ms'
+2253,Stimulus,presented,0
+2253,Stimulus,presented,1
+2253,Stimulus,presented,2
+2352,stdout,received,'the circles will be presented for: {time_ms} ms'
+2368,stdout,received,'the circles will be presented for: {time_ms} ms'
+2369,Stimulus,presented,3
+2369,Stimulus,presented,4
+2369,Stimulus,presented,5
+2468,stdout,received,'the circles will be presented for: {time_ms} ms'
+2485,stdout,received,'the circles will be presented for: {time_ms} ms'
+2485,Stimulus,presented,0
+2485,Stimulus,presented,1
+2485,Stimulus,presented,2
+2585,stdout,received,'the circles will be presented for: {time_ms} ms'
+2602,stdout,received,'the circles will be presented for: {time_ms} ms'
+2602,Stimulus,presented,3
+2603,Stimulus,presented,4
+2603,Stimulus,presented,5
+2702,stdout,received,'the circles will be presented for: {time_ms} ms'
+2719,stdout,received,'the circles will be presented for: {time_ms} ms'
+2720,Stimulus,presented,0
+2720,Stimulus,presented,1
+2720,Stimulus,presented,2
+2819,stdout,received,'the circles will be presented for: {time_ms} ms'
+2836,stdout,received,'the circles will be presented for: {time_ms} ms'
+2836,Stimulus,presented,3
+2837,Stimulus,presented,4
+2837,Stimulus,presented,5
+2936,stdout,received,'the circles will be presented for: {time_ms} ms'
+2953,stdout,received,'the circles will be presented for: {time_ms} ms'
+2954,Stimulus,presented,0
+2954,Stimulus,presented,1
+2954,Stimulus,presented,2
+3053,stdout,received,'the circles will be presented for: {time_ms} ms'
+3069,stdout,received,'the circles will be presented for: {time_ms} ms'
+3070,Stimulus,presented,3
+3070,Stimulus,presented,4
+3070,Stimulus,presented,5
+3169,stdout,received,'the circles will be presented for: {time_ms} ms'
+3186,stdout,received,'the circles will be presented for: {time_ms} ms'
+3187,Stimulus,presented,0
+3187,Stimulus,presented,1
+3187,Stimulus,presented,2
+3287,stdout,received,'the circles will be presented for: {time_ms} ms'
+3303,stdout,received,'the circles will be presented for: {time_ms} ms'
+3304,Stimulus,presented,3
+3304,Stimulus,presented,4
+3304,Stimulus,presented,5
+3403,stdout,received,'the circles will be presented for: {time_ms} ms'
+3420,stdout,received,'the circles will be presented for: {time_ms} ms'
+3420,Stimulus,presented,0
+3420,Stimulus,presented,1
+3420,Stimulus,presented,2
+3520,stdout,received,'the circles will be presented for: {time_ms} ms'
+3536,stdout,received,'the circles will be presented for: {time_ms} ms'
+3537,Stimulus,presented,3
+3537,Stimulus,presented,4
+3537,Stimulus,presented,5
+3636,stdout,received,'the circles will be presented for: {time_ms} ms'
+3653,stdout,received,'the circles will be presented for: {time_ms} ms'
+3653,Stimulus,presented,0
+3653,Stimulus,presented,1
+3653,Stimulus,presented,2
+3753,stdout,received,'the circles will be presented for: {time_ms} ms'
+3770,stdout,received,'the circles will be presented for: {time_ms} ms'
+3770,Stimulus,presented,3
+3770,Stimulus,presented,4
+3771,Stimulus,presented,5
+3870,stdout,received,'the circles will be presented for: {time_ms} ms'
+3887,stdout,received,'the circles will be presented for: {time_ms} ms'
+3887,Stimulus,presented,0
+3887,Stimulus,presented,1
+3888,Stimulus,presented,2
+3987,stdout,received,'the circles will be presented for: {time_ms} ms'
+4003,stdout,received,'the circles will be presented for: {time_ms} ms'
+4004,Stimulus,presented,3
+4004,Stimulus,presented,4
+4004,Stimulus,presented,5
+4103,stdout,received,'the circles will be presented for: {time_ms} ms'
+4119,stdout,received,'the circles will be presented for: {time_ms} ms'
+4120,Stimulus,presented,0
+4120,Stimulus,presented,1
+4120,Stimulus,presented,2
+4219,stdout,received,'the circles will be presented for: {time_ms} ms'
+4235,stdout,received,'the circles will be presented for: {time_ms} ms'
+4236,Stimulus,presented,3
+4236,Stimulus,presented,4
+4236,Stimulus,presented,5
+4335,stdout,received,'the circles will be presented for: {time_ms} ms'
+4351,stdout,received,'the circles will be presented for: {time_ms} ms'
+4352,Stimulus,presented,0
+4352,Stimulus,presented,1
+4352,Stimulus,presented,2
+4451,stdout,received,'the circles will be presented for: {time_ms} ms'
+4468,stdout,received,'the circles will be presented for: {time_ms} ms'
+4468,Stimulus,presented,3
+4468,Stimulus,presented,4
+4468,Stimulus,presented,5
+4568,stdout,received,'the circles will be presented for: {time_ms} ms'
+4584,stdout,received,'the circles will be presented for: {time_ms} ms'
+4585,Stimulus,presented,0
+4585,Stimulus,presented,1
+4585,Stimulus,presented,2
+4685,stdout,received,'the circles will be presented for: {time_ms} ms'
+4702,stdout,received,'the circles will be presented for: {time_ms} ms'
+4702,Stimulus,presented,3
+4702,Stimulus,presented,4
+4702,Stimulus,presented,5
+4803,stdout,received,'the circles will be presented for: {time_ms} ms'
+4820,Keyboard,received,32,check
+4843,stdout,received,'the circles will be presented for: {time_ms} ms'
+4843,Stimulus,presented,6
+4843,Stimulus,presented,7
+4843,Stimulus,presented,8
+4943,stdout,received,'the circles will be presented for: {time_ms} ms'
+5044,stdout,received,'the circles will be presented for: {time_ms} ms'
+5044,Stimulus,presented,9
+5044,Stimulus,presented,10
+5044,Stimulus,presented,11
+5144,stdout,received,'the circles will be presented for: {time_ms} ms'
+5244,Keyboard,received,32,check
+5273,stdout,received,'the circles will be presented for: {time_ms} ms'
+5273,Stimulus,presented,12
+5273,Stimulus,presented,13
+5274,Stimulus,presented,14
+5373,stdout,received,'the circles will be presented for: {time_ms} ms'
+5473,stdout,received,'the circles will be presented for: {time_ms} ms'
+5473,Stimulus,presented,15
+5473,Stimulus,presented,16
+5473,Stimulus,presented,17
+5573,stdout,received,'the circles will be presented for: {time_ms} ms'
+5673,stdout,received,'the circles will be presented for: {time_ms} ms'
+5673,Stimulus,presented,12
+5673,Stimulus,presented,13
+5674,Stimulus,presented,14
+5773,stdout,received,'the circles will be presented for: {time_ms} ms'
+5874,stdout,received,'the circles will be presented for: {time_ms} ms'
+5874,Stimulus,presented,15
+5874,Stimulus,presented,16
+5874,Stimulus,presented,17
+5974,stdout,received,'the circles will be presented for: {time_ms} ms'
+6076,stdout,received,'the circles will be presented for: {time_ms} ms'
+6076,Stimulus,presented,12
+6076,Stimulus,presented,13
+6076,Stimulus,presented,14
+6176,stdout,received,'the circles will be presented for: {time_ms} ms'
+6276,stdout,received,'the circles will be presented for: {time_ms} ms'
+6276,Stimulus,presented,15
+6277,Stimulus,presented,16
+6277,Stimulus,presented,17
+6376,stdout,received,'the circles will be presented for: {time_ms} ms'
+6476,Keyboard,received,32,check
+6479,Experiment,ended
+6519,Stimulus,presented,24

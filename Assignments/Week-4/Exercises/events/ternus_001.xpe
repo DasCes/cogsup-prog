@@ -1,0 +1,28 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 14:43:21
+#sha1: ec92fd
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4901,design,log,
+#design: #exp: ternus
+#design: block_cnt,block_id,trial_cnt,trial_id
+4901,design,logged,
+4901,Experiment,started
+4936,stderr,received,'Traceback (most recent call last):'
+4936,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\ternus.py", line 113, in <module>'
+4937,stderr,received,'    run_trial(radius, isi)'
+4937,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\ternus.py", line 81, in run_trial'
+4937,stderr,received,'    make_circles(radius)'
+4937,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-4\\Exercises\\ternus.py", line 66, in make_circles'
+4937,stderr,received,'    circle.present(clear=False, update=False)'
+4937,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present'
+4938,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+4938,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1058, in preload'
+4939,stderr,received,'    self._ogl_screen = _LaminaPanelSurface('
+4939,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 80, in __init__'
+4939,stderr,received,'    self.refresh_position()'
+4939,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 115, in refresh_position'
+4939,stderr,received,'    self._position[1], 0)'
+4939,stderr,received,'IndexError: list index out of range'
