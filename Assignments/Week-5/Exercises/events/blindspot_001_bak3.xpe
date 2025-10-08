@@ -1,0 +1,46 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 17:34:19
+#sha1: 9cfffe
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5120,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+5120,design,logged,
+5120,Experiment,started
+5166,Stimulus,presented,0
+5169,Stimulus,presented,1
+5582,Keyboard,received,1073741904,wait
+5583,stdout,received,'key: 1073741904, rt:413'
+6145,Keyboard,received,1073741904,wait
+6145,stdout,received,'key: 1073741904, rt:562'
+7348,Keyboard,received,1073741904,wait
+7349,stdout,received,'key: 1073741904, rt:1203'
+9283,Keyboard,received,1073741906,wait
+9283,stdout,received,'key: 1073741906, rt:1934'
+9731,Keyboard,received,1073741906,wait
+9731,stdout,received,'key: 1073741906, rt:448'
+10080,Keyboard,received,1073741906,wait
+10080,stdout,received,'key: 1073741906, rt:349'
+10672,Keyboard,received,1073741903,wait
+10672,stdout,received,'key: 1073741903, rt:592'
+10996,Keyboard,received,1073741903,wait
+10996,stdout,received,'key: 1073741903, rt:323'
+11299,Keyboard,received,1073741903,wait
+11299,stdout,received,'key: 1073741903, rt:302'
+11749,Keyboard,received,1073741905,wait
+11749,stdout,received,'key: 1073741905, rt:450'
+12058,Keyboard,received,1073741905,wait
+12058,stdout,received,'key: 1073741905, rt:309'
+12362,Keyboard,received,1073741905,wait
+12362,stdout,received,'key: 1073741905, rt:303'
+21271,stderr,received,'Traceback (most recent call last):'
+21271,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 41, in <module>'
+21271,stderr,received,'    run_trial()'
+21271,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 31, in run_trial'
+21271,stderr,received,'    key, rt = exp.keyboard.wait()'
+21271,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+21271,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+21271,stderr,received,'KeyboardInterrupt'
