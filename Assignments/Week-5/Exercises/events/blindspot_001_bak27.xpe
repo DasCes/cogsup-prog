@@ -1,0 +1,27 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:19:13
+#sha1: 40e1db
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1055,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1055,design,logged,
+1055,Experiment,started
+1108,Stimulus,presented,1
+1111,Stimulus,presented,2
+1592,Keyboard,received,32,wait
+1592,stdout,received,'key: 32, rt:481'
+1592,Experiment,ended
+1738,stderr,received,'Traceback (most recent call last):'
+1738,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 85, in <module>'
+1738,stderr,received,'    run_trial()'
+1738,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 65, in run_trial'
+1739,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+1739,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+1739,stderr,received,'    self.clear()'
+1739,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+1739,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+1739,stderr,received,'pygame.error: video system not initialized'

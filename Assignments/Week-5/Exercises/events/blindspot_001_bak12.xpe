@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 14:07:45
+#sha1: 262267
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+660,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+661,design,logged,
+661,Experiment,started
+708,Stimulus,presented,0
+709,Stimulus,presented,1
+1201,Keyboard,received,1073741904,wait
+1201,stdout,received,'key: 1073741904, rt:491'
+1202,Stimulus,presented,1
+4511,Keyboard,received,32,wait
+4511,stdout,received,'key: 32, rt:3309'
+4511,Experiment,ended
+4647,stderr,received,'Traceback (most recent call last):'
+4647,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 57, in <module>'
+4647,stderr,received,'    run_trial()'
+4647,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 45, in run_trial'
+4647,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+4647,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+4647,stderr,received,'    self.clear()'
+4647,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+4647,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+4647,stderr,received,'pygame.error: video system not initialized'

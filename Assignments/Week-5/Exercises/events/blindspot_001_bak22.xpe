@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:13:24
+#sha1: a099af
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2550,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2550,design,logged,
+2550,Experiment,started
+2561,Stimulus,presented,0
+2562,Stimulus,presented,1
+2562,stdout,received,'[1073741906, 1073741905, 1073741904, 1073741903, 49, 50]'
+2562,stderr,received,'Traceback (most recent call last):'
+2562,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in <module>'
+2563,stderr,received,'    run_trial()'
+2563,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 47, in run_trial'
+2563,stderr,received,"    key, rt = exp.keyboard.wai1t(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+2563,stderr,received,"AttributeError: 'Keyboard' object has no attribute 'wai1t'. Did you mean: 'wait'?"

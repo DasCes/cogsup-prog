@@ -1,0 +1,559 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 14:29:57
+#sha1: 7fdcfe
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11526,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+11526,design,logged,
+11526,Experiment,started
+11567,Stimulus,presented,0
+11576,Stimulus,presented,1
+12256,Keyboard,received,1073741904,wait
+12257,stdout,received,'key: 1073741904, rt:680'
+12257,Stimulus,presented,0
+12267,Stimulus,presented,1
+13372,Keyboard,received,1073741904,wait
+13372,stdout,received,'key: 1073741904, rt:1105'
+13373,Stimulus,presented,0
+13384,Stimulus,presented,1
+13554,Keyboard,received,1073741904,wait
+13554,stdout,received,'key: 1073741904, rt:170'
+13555,Stimulus,presented,0
+13576,Stimulus,presented,1
+13726,Keyboard,received,1073741904,wait
+13726,stdout,received,'key: 1073741904, rt:150'
+13727,Stimulus,presented,0
+13746,Stimulus,presented,1
+13908,Keyboard,received,1073741904,wait
+13908,stdout,received,'key: 1073741904, rt:162'
+13909,Stimulus,presented,0
+13918,Stimulus,presented,1
+14077,Keyboard,received,1073741904,wait
+14077,stdout,received,'key: 1073741904, rt:158'
+14078,Stimulus,presented,0
+14097,Stimulus,presented,1
+14257,Keyboard,received,1073741904,wait
+14257,stdout,received,'key: 1073741904, rt:160'
+14257,Stimulus,presented,0
+14267,Stimulus,presented,1
+14442,Keyboard,received,1073741904,wait
+14442,stdout,received,'key: 1073741904, rt:175'
+14443,Stimulus,presented,0
+14460,Stimulus,presented,1
+14627,Keyboard,received,1073741904,wait
+14627,stdout,received,'key: 1073741904, rt:166'
+14627,Stimulus,presented,0
+14631,Stimulus,presented,1
+14800,Keyboard,received,1073741904,wait
+14800,stdout,received,'key: 1073741904, rt:169'
+14801,Stimulus,presented,0
+14813,Stimulus,presented,1
+14984,Keyboard,received,1073741904,wait
+14984,stdout,received,'key: 1073741904, rt:171'
+14985,Stimulus,presented,0
+14991,Stimulus,presented,1
+15168,Keyboard,received,1073741904,wait
+15168,stdout,received,'key: 1073741904, rt:177'
+15169,Stimulus,presented,0
+15178,Stimulus,presented,1
+15346,Keyboard,received,1073741904,wait
+15346,stdout,received,'key: 1073741904, rt:168'
+15347,Stimulus,presented,0
+15358,Stimulus,presented,1
+15535,Keyboard,received,1073741904,wait
+15535,stdout,received,'key: 1073741904, rt:176'
+15535,Stimulus,presented,0
+15538,Stimulus,presented,1
+15712,Keyboard,received,1073741904,wait
+15712,stdout,received,'key: 1073741904, rt:174'
+15713,Stimulus,presented,0
+15721,Stimulus,presented,1
+15891,Keyboard,received,1073741904,wait
+15891,stdout,received,'key: 1073741904, rt:169'
+15891,Stimulus,presented,0
+15907,Stimulus,presented,1
+16074,Keyboard,received,1073741904,wait
+16074,stdout,received,'key: 1073741904, rt:166'
+16075,Stimulus,presented,0
+16078,Stimulus,presented,1
+16272,Keyboard,received,1073741904,wait
+16272,stdout,received,'key: 1073741904, rt:193'
+16273,Stimulus,presented,0
+16278,Stimulus,presented,1
+16465,Keyboard,received,1073741904,wait
+16465,stdout,received,'key: 1073741904, rt:186'
+16465,Stimulus,presented,0
+16476,Stimulus,presented,1
+16683,Keyboard,received,1073741904,wait
+16683,stdout,received,'key: 1073741904, rt:206'
+16683,Stimulus,presented,0
+16686,Stimulus,presented,1
+16862,Keyboard,received,1073741904,wait
+16863,stdout,received,'key: 1073741904, rt:176'
+16863,Stimulus,presented,0
+16880,Stimulus,presented,1
+17064,Keyboard,received,1073741904,wait
+17065,stdout,received,'key: 1073741904, rt:184'
+17065,Stimulus,presented,0
+17074,Stimulus,presented,1
+17268,Keyboard,received,1073741904,wait
+17269,stdout,received,'key: 1073741904, rt:194'
+17269,Stimulus,presented,0
+17279,Stimulus,presented,1
+17469,Keyboard,received,1073741904,wait
+17469,stdout,received,'key: 1073741904, rt:189'
+17469,Stimulus,presented,0
+17472,Stimulus,presented,1
+17656,Keyboard,received,1073741904,wait
+17656,stdout,received,'key: 1073741904, rt:184'
+17657,Stimulus,presented,0
+17667,Stimulus,presented,1
+17867,Keyboard,received,1073741904,wait
+17867,stdout,received,'key: 1073741904, rt:200'
+17867,Stimulus,presented,0
+17871,Stimulus,presented,1
+18093,Keyboard,received,1073741904,wait
+18093,stdout,received,'key: 1073741904, rt:221'
+18093,Stimulus,presented,0
+18096,Stimulus,presented,1
+18321,Keyboard,received,1073741904,wait
+18321,stdout,received,'key: 1073741904, rt:224'
+18321,Stimulus,presented,0
+18331,Stimulus,presented,1
+18549,Keyboard,received,1073741904,wait
+18549,stdout,received,'key: 1073741904, rt:218'
+18549,Stimulus,presented,0
+18558,Stimulus,presented,1
+18775,Keyboard,received,1073741904,wait
+18775,stdout,received,'key: 1073741904, rt:216'
+18775,Stimulus,presented,0
+18782,Stimulus,presented,1
+18999,Keyboard,received,1073741904,wait
+18999,stdout,received,'key: 1073741904, rt:216'
+18999,Stimulus,presented,0
+19006,Stimulus,presented,1
+19221,Keyboard,received,1073741904,wait
+19221,stdout,received,'key: 1073741904, rt:214'
+19221,Stimulus,presented,0
+19230,Stimulus,presented,1
+19848,Keyboard,received,1073741904,wait
+19848,stdout,received,'key: 1073741904, rt:618'
+19849,Stimulus,presented,0
+19858,Stimulus,presented,1
+20153,Keyboard,received,1073741904,wait
+20153,stdout,received,'key: 1073741904, rt:294'
+20153,Stimulus,presented,0
+20156,Stimulus,presented,1
+20537,Keyboard,received,1073741903,wait
+20537,stdout,received,'key: 1073741903, rt:380'
+20537,Stimulus,presented,0
+20547,Stimulus,presented,1
+20783,Keyboard,received,1073741903,wait
+20783,stdout,received,'key: 1073741903, rt:235'
+20783,Stimulus,presented,0
+20802,Stimulus,presented,1
+21040,Keyboard,received,1073741903,wait
+21040,stdout,received,'key: 1073741903, rt:238'
+21041,Stimulus,presented,0
+21050,Stimulus,presented,1
+21281,Keyboard,received,1073741903,wait
+21281,stdout,received,'key: 1073741903, rt:230'
+21281,Stimulus,presented,0
+21300,Stimulus,presented,1
+21518,Keyboard,received,1073741903,wait
+21518,stdout,received,'key: 1073741903, rt:217'
+21519,Stimulus,presented,0
+21528,Stimulus,presented,1
+21743,Keyboard,received,1073741903,wait
+21743,stdout,received,'key: 1073741903, rt:214'
+21743,Stimulus,presented,0
+21752,Stimulus,presented,1
+21980,Keyboard,received,1073741903,wait
+21980,stdout,received,'key: 1073741903, rt:228'
+21981,Stimulus,presented,0
+21983,Stimulus,presented,1
+22239,Keyboard,received,1073741903,wait
+22239,stdout,received,'key: 1073741903, rt:255'
+22239,Stimulus,presented,0
+22249,Stimulus,presented,1
+22654,Keyboard,received,1073741904,wait
+22654,stdout,received,'key: 1073741904, rt:405'
+22655,Stimulus,presented,0
+22659,Stimulus,presented,1
+22865,Keyboard,received,1073741904,wait
+22865,stdout,received,'key: 1073741904, rt:205'
+22865,Stimulus,presented,0
+22877,Stimulus,presented,1
+23087,Keyboard,received,1073741904,wait
+23087,stdout,received,'key: 1073741904, rt:209'
+23087,Stimulus,presented,0
+23093,Stimulus,presented,1
+23278,Keyboard,received,1073741904,wait
+23278,stdout,received,'key: 1073741904, rt:185'
+23279,Stimulus,presented,0
+23290,Stimulus,presented,1
+23557,Keyboard,received,1073741904,wait
+23557,stdout,received,'key: 1073741904, rt:266'
+23557,Stimulus,presented,0
+23565,Stimulus,presented,1
+23821,Keyboard,received,1073741904,wait
+23821,stdout,received,'key: 1073741904, rt:255'
+23821,Stimulus,presented,0
+23838,Stimulus,presented,1
+24128,Keyboard,received,1073741904,wait
+24128,stdout,received,'key: 1073741904, rt:290'
+24129,Stimulus,presented,0
+24136,Stimulus,presented,1
+24434,Keyboard,received,1073741904,wait
+24434,stdout,received,'key: 1073741904, rt:298'
+24435,Stimulus,presented,0
+24448,Stimulus,presented,1
+24732,Keyboard,received,1073741904,wait
+24733,stdout,received,'key: 1073741904, rt:284'
+24733,Stimulus,presented,0
+24736,Stimulus,presented,1
+25021,Keyboard,received,1073741904,wait
+25021,stdout,received,'key: 1073741904, rt:284'
+25021,Stimulus,presented,0
+25024,Stimulus,presented,1
+25263,Keyboard,received,1073741904,wait
+25263,stdout,received,'key: 1073741904, rt:238'
+25263,Stimulus,presented,0
+25276,Stimulus,presented,1
+25519,Keyboard,received,1073741904,wait
+25519,stdout,received,'key: 1073741904, rt:243'
+25519,Stimulus,presented,0
+25522,Stimulus,presented,1
+25793,Keyboard,received,1073741904,wait
+25793,stdout,received,'key: 1073741904, rt:270'
+25793,Stimulus,presented,0
+25804,Stimulus,presented,1
+26058,Keyboard,received,1073741904,wait
+26058,stdout,received,'key: 1073741904, rt:254'
+26059,Stimulus,presented,0
+26076,Stimulus,presented,1
+26322,Keyboard,received,1073741904,wait
+26322,stdout,received,'key: 1073741904, rt:246'
+26323,Stimulus,presented,0
+26328,Stimulus,presented,1
+26568,Keyboard,received,1073741904,wait
+26568,stdout,received,'key: 1073741904, rt:240'
+26569,Stimulus,presented,0
+26585,Stimulus,presented,1
+26820,Keyboard,received,1073741904,wait
+26820,stdout,received,'key: 1073741904, rt:235'
+26821,Stimulus,presented,0
+26823,Stimulus,presented,1
+27114,Keyboard,received,1073741904,wait
+27114,stdout,received,'key: 1073741904, rt:291'
+27115,Stimulus,presented,0
+27120,Stimulus,presented,1
+27367,Keyboard,received,1073741904,wait
+27367,stdout,received,'key: 1073741904, rt:246'
+27367,Stimulus,presented,0
+27385,Stimulus,presented,1
+27641,Keyboard,received,1073741904,wait
+27641,stdout,received,'key: 1073741904, rt:255'
+27641,Stimulus,presented,0
+27644,Stimulus,presented,1
+27948,Keyboard,received,1073741904,wait
+27948,stdout,received,'key: 1073741904, rt:304'
+27949,Stimulus,presented,0
+27958,Stimulus,presented,1
+28251,Keyboard,received,1073741904,wait
+28251,stdout,received,'key: 1073741904, rt:292'
+28251,Stimulus,presented,0
+28254,Stimulus,presented,1
+28522,Keyboard,received,1073741904,wait
+28522,stdout,received,'key: 1073741904, rt:268'
+28523,Stimulus,presented,0
+28538,Stimulus,presented,1
+28791,Keyboard,received,1073741904,wait
+28791,stdout,received,'key: 1073741904, rt:252'
+28791,Stimulus,presented,0
+28809,Stimulus,presented,1
+29073,Keyboard,received,1073741904,wait
+29073,stdout,received,'key: 1073741904, rt:263'
+29073,Stimulus,presented,0
+29081,Stimulus,presented,1
+29346,Keyboard,received,1073741904,wait
+29346,stdout,received,'key: 1073741904, rt:264'
+29347,Stimulus,presented,0
+29356,Stimulus,presented,1
+29627,Keyboard,received,1073741904,wait
+29627,stdout,received,'key: 1073741904, rt:270'
+29627,Stimulus,presented,0
+29638,Stimulus,presented,1
+29927,Keyboard,received,1073741904,wait
+29927,stdout,received,'key: 1073741904, rt:289'
+29927,Stimulus,presented,0
+29935,Stimulus,presented,1
+30240,Keyboard,received,1073741904,wait
+30240,stdout,received,'key: 1073741904, rt:305'
+30241,Stimulus,presented,0
+30247,Stimulus,presented,1
+30574,Keyboard,received,1073741904,wait
+30574,stdout,received,'key: 1073741904, rt:327'
+30575,Stimulus,presented,0
+30577,Stimulus,presented,1
+30918,Keyboard,received,1073741904,wait
+30918,stdout,received,'key: 1073741904, rt:340'
+30919,Stimulus,presented,0
+30927,Stimulus,presented,1
+31239,Keyboard,received,1073741904,wait
+31239,stdout,received,'key: 1073741904, rt:312'
+31239,Stimulus,presented,0
+31250,Stimulus,presented,1
+31588,Keyboard,received,1073741904,wait
+31588,stdout,received,'key: 1073741904, rt:338'
+31589,Stimulus,presented,0
+31591,Stimulus,presented,1
+31900,Keyboard,received,1073741904,wait
+31901,stdout,received,'key: 1073741904, rt:309'
+31901,Stimulus,presented,0
+31917,Stimulus,presented,1
+32597,Keyboard,received,1073741904,wait
+32597,stdout,received,'key: 1073741904, rt:679'
+32597,Stimulus,presented,0
+32606,Stimulus,presented,1
+34167,Keyboard,received,1073741903,wait
+34167,stdout,received,'key: 1073741903, rt:1560'
+34167,Stimulus,presented,0
+34177,Stimulus,presented,1
+34496,Keyboard,received,1073741903,wait
+34496,stdout,received,'key: 1073741903, rt:319'
+34497,Stimulus,presented,0
+34509,Stimulus,presented,1
+34739,Keyboard,received,1073741903,wait
+34739,stdout,received,'key: 1073741903, rt:229'
+34739,Stimulus,presented,0
+34745,Stimulus,presented,1
+34967,Keyboard,received,1073741903,wait
+34967,stdout,received,'key: 1073741903, rt:221'
+34967,Stimulus,presented,0
+34987,Stimulus,presented,1
+38186,Keyboard,received,1073741903,wait
+38186,stdout,received,'key: 1073741903, rt:3199'
+38187,Stimulus,presented,0
+38196,Stimulus,presented,1
+39238,Keyboard,received,1073741903,wait
+39238,stdout,received,'key: 1073741903, rt:1042'
+39239,Stimulus,presented,0
+39258,Stimulus,presented,1
+39439,Keyboard,received,1073741903,wait
+39439,stdout,received,'key: 1073741903, rt:180'
+39439,Stimulus,presented,0
+39461,Stimulus,presented,1
+39665,Keyboard,received,1073741903,wait
+39665,stdout,received,'key: 1073741903, rt:204'
+39665,Stimulus,presented,0
+39669,Stimulus,presented,1
+40051,Keyboard,received,1073741903,wait
+40051,stdout,received,'key: 1073741903, rt:381'
+40051,Stimulus,presented,0
+40070,Stimulus,presented,1
+40779,Keyboard,received,1073741903,wait
+40779,stdout,received,'key: 1073741903, rt:708'
+40780,Stimulus,presented,0
+40782,Stimulus,presented,1
+41196,Keyboard,received,1073741903,wait
+41196,stdout,received,'key: 1073741903, rt:414'
+41197,Stimulus,presented,0
+41203,Stimulus,presented,1
+41537,Keyboard,received,1073741903,wait
+41537,stdout,received,'key: 1073741903, rt:333'
+41537,Stimulus,presented,0
+41556,Stimulus,presented,1
+41841,Keyboard,received,1073741903,wait
+41841,stdout,received,'key: 1073741903, rt:284'
+41841,Stimulus,presented,0
+41851,Stimulus,presented,1
+42164,Keyboard,received,1073741903,wait
+42164,stdout,received,'key: 1073741903, rt:313'
+42165,Stimulus,presented,0
+42176,Stimulus,presented,1
+42524,Keyboard,received,1073741903,wait
+42524,stdout,received,'key: 1073741903, rt:347'
+42525,Stimulus,presented,0
+42527,Stimulus,presented,1
+42877,Keyboard,received,1073741903,wait
+42877,stdout,received,'key: 1073741903, rt:349'
+42877,Stimulus,presented,0
+42879,Stimulus,presented,1
+43215,Keyboard,received,1073741903,wait
+43215,stdout,received,'key: 1073741903, rt:335'
+43215,Stimulus,presented,0
+43225,Stimulus,presented,1
+43523,Keyboard,received,1073741903,wait
+43523,stdout,received,'key: 1073741903, rt:297'
+43523,Stimulus,presented,0
+43531,Stimulus,presented,1
+43838,Keyboard,received,1073741903,wait
+43838,stdout,received,'key: 1073741903, rt:307'
+43839,Stimulus,presented,0
+43858,Stimulus,presented,1
+44164,Keyboard,received,1073741903,wait
+44164,stdout,received,'key: 1073741903, rt:306'
+44165,Stimulus,presented,0
+44168,Stimulus,presented,1
+44494,Keyboard,received,1073741903,wait
+44494,stdout,received,'key: 1073741903, rt:326'
+44495,Stimulus,presented,0
+44498,Stimulus,presented,1
+44817,Keyboard,received,1073741903,wait
+44817,stdout,received,'key: 1073741903, rt:318'
+44817,Stimulus,presented,0
+44823,Stimulus,presented,1
+45143,Keyboard,received,1073741903,wait
+45143,stdout,received,'key: 1073741903, rt:319'
+45143,Stimulus,presented,0
+45147,Stimulus,presented,1
+45431,Keyboard,received,1073741903,wait
+45431,stdout,received,'key: 1073741903, rt:284'
+45431,Stimulus,presented,0
+45453,Stimulus,presented,1
+45715,Keyboard,received,1073741903,wait
+45715,stdout,received,'key: 1073741903, rt:261'
+45715,Stimulus,presented,0
+45730,Stimulus,presented,1
+45979,Keyboard,received,1073741903,wait
+45979,stdout,received,'key: 1073741903, rt:249'
+45979,Stimulus,presented,0
+45999,Stimulus,presented,1
+46229,Keyboard,received,1073741903,wait
+46229,stdout,received,'key: 1073741903, rt:229'
+46229,Stimulus,presented,0
+46232,Stimulus,presented,1
+46421,Keyboard,received,1073741903,wait
+46421,stdout,received,'key: 1073741903, rt:188'
+46421,Stimulus,presented,0
+46438,Stimulus,presented,1
+47311,Keyboard,received,1073741903,wait
+47311,stdout,received,'key: 1073741903, rt:872'
+47311,Stimulus,presented,0
+47314,Stimulus,presented,1
+47487,Keyboard,received,1073741903,wait
+47487,stdout,received,'key: 1073741903, rt:172'
+47487,Stimulus,presented,0
+47505,Stimulus,presented,1
+47678,Keyboard,received,1073741903,wait
+47678,stdout,received,'key: 1073741903, rt:172'
+47679,Stimulus,presented,0
+47694,Stimulus,presented,1
+47849,Keyboard,received,1073741903,wait
+47849,stdout,received,'key: 1073741903, rt:154'
+47849,Stimulus,presented,0
+47867,Stimulus,presented,1
+48016,Keyboard,received,1073741903,wait
+48016,stdout,received,'key: 1073741903, rt:149'
+48017,Stimulus,presented,0
+48024,Stimulus,presented,1
+48271,Keyboard,received,1073741903,wait
+48271,stdout,received,'key: 1073741903, rt:246'
+48271,Stimulus,presented,0
+48274,Stimulus,presented,1
+48467,Keyboard,received,1073741903,wait
+48467,stdout,received,'key: 1073741903, rt:192'
+48467,Stimulus,presented,0
+48477,Stimulus,presented,1
+48679,Keyboard,received,1073741903,wait
+48679,stdout,received,'key: 1073741903, rt:201'
+48679,Stimulus,presented,0
+48682,Stimulus,presented,1
+48899,Keyboard,received,1073741903,wait
+48899,stdout,received,'key: 1073741903, rt:216'
+48899,Stimulus,presented,0
+48912,Stimulus,presented,1
+49074,Keyboard,received,1073741903,wait
+49074,stdout,received,'key: 1073741903, rt:161'
+49075,Stimulus,presented,0
+49086,Stimulus,presented,1
+49292,Keyboard,received,1073741903,wait
+49292,stdout,received,'key: 1073741903, rt:206'
+49293,Stimulus,presented,0
+49301,Stimulus,presented,1
+49507,Keyboard,received,1073741903,wait
+49507,stdout,received,'key: 1073741903, rt:205'
+49507,Stimulus,presented,0
+49516,Stimulus,presented,1
+49718,Keyboard,received,1073741903,wait
+49718,stdout,received,'key: 1073741903, rt:202'
+49719,Stimulus,presented,0
+49724,Stimulus,presented,1
+49935,Keyboard,received,1073741903,wait
+49935,stdout,received,'key: 1073741903, rt:210'
+49935,Stimulus,presented,0
+49943,Stimulus,presented,1
+50156,Keyboard,received,1073741903,wait
+50156,stdout,received,'key: 1073741903, rt:213'
+50157,Stimulus,presented,0
+50166,Stimulus,presented,1
+50360,Keyboard,received,1073741903,wait
+50360,stdout,received,'key: 1073741903, rt:193'
+50361,Stimulus,presented,0
+50372,Stimulus,presented,1
+50565,Keyboard,received,1073741903,wait
+50565,stdout,received,'key: 1073741903, rt:192'
+50565,Stimulus,presented,0
+50572,Stimulus,presented,1
+50783,Keyboard,received,1073741903,wait
+50783,stdout,received,'key: 1073741903, rt:210'
+50783,Stimulus,presented,0
+50786,Stimulus,presented,1
+50996,Keyboard,received,1073741903,wait
+50996,stdout,received,'key: 1073741903, rt:210'
+50997,Stimulus,presented,0
+50999,Stimulus,presented,1
+51220,Keyboard,received,1073741903,wait
+51220,stdout,received,'key: 1073741903, rt:221'
+51221,Stimulus,presented,0
+51223,Stimulus,presented,1
+51444,Keyboard,received,1073741903,wait
+51444,stdout,received,'key: 1073741903, rt:221'
+51445,Stimulus,presented,0
+51450,Stimulus,presented,1
+51666,Keyboard,received,1073741903,wait
+51666,stdout,received,'key: 1073741903, rt:215'
+51667,Stimulus,presented,0
+51670,Stimulus,presented,1
+51864,Keyboard,received,1073741903,wait
+51864,stdout,received,'key: 1073741903, rt:194'
+51865,Stimulus,presented,0
+51875,Stimulus,presented,1
+52068,Keyboard,received,1073741903,wait
+52068,stdout,received,'key: 1073741903, rt:193'
+52069,Stimulus,presented,0
+52079,Stimulus,presented,1
+52295,Keyboard,received,1073741903,wait
+52295,stdout,received,'key: 1073741903, rt:216'
+52295,Stimulus,presented,0
+52304,Stimulus,presented,1
+52512,Keyboard,received,1073741903,wait
+52512,stdout,received,'key: 1073741903, rt:208'
+52513,Stimulus,presented,0
+52519,Stimulus,presented,1
+52692,Keyboard,received,1073741903,wait
+52692,stdout,received,'key: 1073741903, rt:173'
+52693,Stimulus,presented,0
+52710,Stimulus,presented,1
+52884,Keyboard,received,1073741903,wait
+52884,stdout,received,'key: 1073741903, rt:173'
+52885,Stimulus,presented,0
+52887,Stimulus,presented,1
+53083,Keyboard,received,1073741903,wait
+53083,stdout,received,'key: 1073741903, rt:196'
+53084,Stimulus,presented,0
+53087,Stimulus,presented,1
+53266,Keyboard,received,1073741903,wait
+53266,stdout,received,'key: 1073741903, rt:178'
+53267,Stimulus,presented,0
+53283,Stimulus,presented,1
+55819,Experiment,paused
+55830,Stimulus,presented,2
+57263,Keyboard,received,y,wait_char
+57263,Experiment,ended
+57305,Stimulus,presented,2

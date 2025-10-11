@@ -1,0 +1,139 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:11:58
+#sha1: 709b22
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1522,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1522,design,logged,
+1522,Experiment,started
+1538,Stimulus,presented,0
+1554,Stimulus,presented,1
+1554,stdout,received,'[1073741906, 1073741905, 1073741904, 1073741903, 49, 50]'
+2749,Keyboard,received,50,wait
+2749,stdout,received,'key: 50, rt:1195'
+2794,Stimulus,presented,0
+2795,Stimulus,presented,2
+3169,Keyboard,received,49,wait
+3169,stdout,received,'key: 49, rt:373'
+3212,Stimulus,presented,0
+3213,Stimulus,presented,3
+3442,Keyboard,received,49,wait
+3442,stdout,received,'key: 49, rt:228'
+3485,Stimulus,presented,0
+3486,Stimulus,presented,4
+3601,Keyboard,received,49,wait
+3601,stdout,received,'key: 49, rt:115'
+3608,Stimulus,presented,0
+3609,Stimulus,presented,5
+3766,Keyboard,received,49,wait
+3766,stdout,received,'key: 49, rt:156'
+3809,Stimulus,presented,0
+3810,Stimulus,presented,6
+3922,Keyboard,received,49,wait
+3922,stdout,received,'key: 49, rt:111'
+3964,Stimulus,presented,0
+3965,Stimulus,presented,7
+4082,Keyboard,received,49,wait
+4082,stdout,received,'key: 49, rt:116'
+4088,Stimulus,presented,0
+4090,Stimulus,presented,8
+4240,Keyboard,received,49,wait
+4240,stdout,received,'key: 49, rt:150'
+4283,Stimulus,presented,0
+4285,Stimulus,presented,9
+4393,Keyboard,received,49,wait
+4394,stdout,received,'key: 49, rt:108'
+4436,Stimulus,presented,0
+4437,Stimulus,presented,10
+4558,Keyboard,received,49,wait
+4558,stdout,received,'key: 49, rt:120'
+4600,Stimulus,presented,0
+4602,Stimulus,presented,11
+4715,Keyboard,received,49,wait
+4715,stdout,received,'key: 49, rt:113'
+4757,Stimulus,presented,0
+4763,Stimulus,presented,12
+4872,Keyboard,received,49,wait
+4872,stdout,received,'key: 49, rt:108'
+4877,Stimulus,presented,0
+4878,Stimulus,presented,13
+5035,Keyboard,received,49,wait
+5035,stdout,received,'key: 49, rt:156'
+5040,Stimulus,presented,0
+5041,Stimulus,presented,14
+5199,Keyboard,received,49,wait
+5199,stdout,received,'key: 49, rt:157'
+5239,Stimulus,presented,0
+5241,Stimulus,presented,15
+5371,Keyboard,received,49,wait
+5371,stdout,received,'key: 49, rt:130'
+5411,Stimulus,presented,0
+5413,Stimulus,presented,16
+5533,Keyboard,received,49,wait
+5533,stdout,received,'key: 49, rt:120'
+5575,Stimulus,presented,0
+5576,Stimulus,presented,17
+5697,Keyboard,received,49,wait
+5697,stdout,received,'key: 49, rt:121'
+5703,Stimulus,presented,0
+5704,Stimulus,presented,18
+5855,Keyboard,received,49,wait
+5855,stdout,received,'key: 49, rt:150'
+5895,Stimulus,presented,0
+5897,Stimulus,presented,19
+6029,Keyboard,received,49,wait
+6029,stdout,received,'key: 49, rt:132'
+6067,Stimulus,presented,0
+6070,Stimulus,presented,20
+6199,Keyboard,received,49,wait
+6199,stdout,received,'key: 49, rt:129'
+6238,Stimulus,presented,0
+6240,Stimulus,presented,21
+6367,Keyboard,received,49,wait
+6367,stdout,received,'key: 49, rt:127'
+6372,Stimulus,presented,0
+6374,Stimulus,presented,22
+6536,Keyboard,received,49,wait
+6536,stdout,received,'key: 49, rt:161'
+6575,Stimulus,presented,0
+6586,Stimulus,presented,23
+6711,Keyboard,received,49,wait
+6711,stdout,received,'key: 49, rt:125'
+6715,Stimulus,presented,0
+6717,Stimulus,presented,24
+6892,Keyboard,received,49,wait
+6892,stdout,received,'key: 49, rt:174'
+6895,Stimulus,presented,0
+6897,Stimulus,presented,25
+7059,Keyboard,received,49,wait
+7059,stdout,received,'key: 49, rt:162'
+7099,Stimulus,presented,0
+7101,Stimulus,presented,26
+7229,Keyboard,received,49,wait
+7230,stdout,received,'key: 49, rt:128'
+7233,Stimulus,presented,0
+7234,Stimulus,presented,27
+7397,Keyboard,received,49,wait
+7397,stdout,received,'key: 49, rt:163'
+7401,Stimulus,presented,0
+7405,Stimulus,presented,28
+7820,Keyboard,received,49,wait
+7820,stdout,received,'key: 49, rt:414'
+7820,stderr,received,'Traceback (most recent call last):'
+7820,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in <module>'
+7820,stderr,received,'    run_trial()'
+7820,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 60, in run_trial'
+7821,stderr,received,'    circle = make_circle(radius)'
+7821,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 13, in make_circle'
+7821,stderr,received,'    c.preload()'
+7821,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1059, in preload'
+7857,stderr,received,'    self._get_surface(),'
+7857,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 490, in _get_surface'
+7858,stderr,received,'    tmp = self._create_surface()'
+7858,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\stimuli\\_ellipse.py", line 136, in _create_surface'
+7858,stderr,received,'    surface = pygame.surface.Surface('
+7858,stderr,received,'pygame.error: Invalid resolution for Surface'

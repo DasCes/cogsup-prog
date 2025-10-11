@@ -1,0 +1,35 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 14:07:02
+#sha1: 6446bb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+788,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+788,design,logged,
+788,Experiment,started
+834,Stimulus,presented,0
+835,Stimulus,presented,1
+1278,Keyboard,received,1073741904,wait
+1278,stdout,received,'key: 1073741904, rt:442'
+1982,Keyboard,received,1073741904,wait
+1982,stdout,received,'key: 1073741904, rt:703'
+2484,Keyboard,received,1073741904,wait
+2484,stdout,received,'key: 1073741904, rt:501'
+2808,Keyboard,received,1073741904,wait
+2808,stdout,received,'key: 1073741904, rt:323'
+5132,Keyboard,received,32,wait
+5132,stdout,received,'key: 32, rt:2323'
+5132,Experiment,ended
+5297,stderr,received,'Traceback (most recent call last):'
+5297,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 56, in <module>'
+5297,stderr,received,'    run_trial()'
+5298,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 44, in run_trial'
+5298,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+5298,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+5298,stderr,received,'    self.clear()'
+5298,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+5298,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+5298,stderr,received,'pygame.error: video system not initialized'

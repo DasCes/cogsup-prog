@@ -1,0 +1,35 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 22:52:27
+#sha1: 75c876
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11181,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+11181,design,logged,
+11181,Experiment,started
+11221,Stimulus,presented,0
+11229,Stimulus,presented,1
+11597,Keyboard,received,1073741904,wait
+11597,stdout,received,'key: 1073741904, rt:367'
+11597,Stimulus,presented,0
+11608,Stimulus,presented,1
+11797,Keyboard,received,1073741904,wait
+11797,stdout,received,'key: 1073741904, rt:188'
+11797,Stimulus,presented,0
+11803,Stimulus,presented,1
+11963,Keyboard,received,1073741904,wait
+11963,stdout,received,'key: 1073741904, rt:159'
+11963,Stimulus,presented,0
+11973,Stimulus,presented,1
+12083,Keyboard,received,1073741904,wait
+12083,stdout,received,'key: 1073741904, rt:109'
+12083,Stimulus,presented,0
+12105,Stimulus,presented,1
+12253,Experiment,paused
+12265,Stimulus,presented,2
+13516,Keyboard,received,y,wait_char
+13516,Experiment,ended
+13566,Stimulus,presented,2

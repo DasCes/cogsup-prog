@@ -1,0 +1,35 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 13:43:49
+#sha1: 74de3c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1171,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1171,design,logged,
+1171,Experiment,started
+1215,Stimulus,presented,0
+1217,Stimulus,presented,1
+2512,Keyboard,received,1073741906,wait
+2512,stdout,received,'key: 1073741906, rt:1295'
+2834,Keyboard,received,1073741904,wait
+2834,stdout,received,'key: 1073741904, rt:321'
+3580,Keyboard,received,1073741905,wait
+3580,stdout,received,'key: 1073741905, rt:746'
+3888,Keyboard,received,1073741903,wait
+3888,stdout,received,'key: 1073741903, rt:307'
+5383,Keyboard,received,32,wait
+5383,stdout,received,'key: 32, rt:1494'
+5383,Experiment,ended
+5544,stderr,received,'Traceback (most recent call last):'
+5544,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 48, in <module>'
+5544,stderr,received,'    run_trial()'
+5544,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 36, in run_trial'
+5544,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+5544,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+5545,stderr,received,'    self.clear()'
+5545,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+5545,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+5545,stderr,received,'pygame.error: video system not initialized'

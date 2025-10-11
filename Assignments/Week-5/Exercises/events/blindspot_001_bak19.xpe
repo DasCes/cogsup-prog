@@ -1,0 +1,36 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:08:57
+#sha1: 2dcd69
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2063,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2063,design,logged,
+2063,Experiment,started
+2108,Stimulus,presented,0
+2109,Stimulus,presented,1
+2109,stdout,received,'[1073741906, 1073741905, 1073741904, 1073741903, 49, 50]'
+3830,Keyboard,received,49,wait
+3830,stdout,received,'key: 49, rt:1720'
+3831,Stimulus,presented,0
+3832,Stimulus,presented,1
+7078,Keyboard,received,50,wait
+7078,stdout,received,'key: 50, rt:3246'
+7078,Stimulus,presented,0
+7080,Stimulus,presented,1
+11674,Keyboard,received,32,wait
+11674,stdout,received,'key: 32, rt:4593'
+11674,Experiment,ended
+11855,stderr,received,'Traceback (most recent call last):'
+11855,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in <module>'
+11856,stderr,received,'    run_trial()'
+11856,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 47, in run_trial'
+11856,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+11856,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+11856,stderr,received,'    self.clear()'
+11856,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+11856,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+11856,stderr,received,'pygame.error: video system not initialized'

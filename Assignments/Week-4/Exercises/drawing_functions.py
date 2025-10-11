@@ -22,6 +22,7 @@ def load(stims):
 def timed_draw(exp, stims):
     # Draw to canvas
     time_before_draw = exp.clock.time
+
     exp.screen.clear()  # Clear the screen first!
     for stim in stims:
         stim.present(clear=False, update=False)

@@ -1,0 +1,32 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 13:41:10
+#sha1: 622970
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2710,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2710,design,logged,
+2710,Experiment,started
+2754,Stimulus,presented,0
+2755,Stimulus,presented,1
+7297,Keyboard,received,1073741904,wait
+7297,stdout,received,'key: 1073741904, rt:4541'
+10277,Keyboard,received,1073741904,wait
+10277,stdout,received,'key: 1073741904, rt:2979'
+10615,Keyboard,received,1073741904,wait
+10615,stdout,received,'key: 1073741904, rt:337'
+10833,Keyboard,received,1073741904,wait
+10833,stdout,received,'key: 1073741904, rt:217'
+68318,stderr,received,'Traceback (most recent call last):'
+68318,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 46, in <module>'
+68318,stderr,received,'    run_trial()'
+68318,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 36, in run_trial'
+68318,stderr,received,'    key, rt = exp.keyboard.wait(keys=useful_keys)'
+68318,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 376, in wait'
+68318,stderr,received,'    _internals.active_exp.mouse.process_quit_event():'
+68318,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_mouse.py", line 139, in process_quit_event'
+68319,stderr,received,'    @staticmethod'
+68319,stderr,received,'KeyboardInterrupt'

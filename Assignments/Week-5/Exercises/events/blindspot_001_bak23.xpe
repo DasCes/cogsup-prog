@@ -1,0 +1,247 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:14:19
+#sha1: 6d7231
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1450,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1450,design,logged,
+1450,Experiment,started
+1462,Stimulus,presented,0
+1464,Stimulus,presented,1
+2744,Keyboard,received,49,wait
+2744,stdout,received,'key: 49, rt:1280'
+2786,Stimulus,presented,0
+2788,Stimulus,presented,2
+3212,Keyboard,received,49,wait
+3212,stdout,received,'key: 49, rt:423'
+3254,Stimulus,presented,0
+3255,Stimulus,presented,3
+4402,Keyboard,received,49,wait
+4402,stdout,received,'key: 49, rt:1146'
+4409,Stimulus,presented,0
+4411,Stimulus,presented,4
+4576,Keyboard,received,49,wait
+4576,stdout,received,'key: 49, rt:164'
+4618,Stimulus,presented,0
+4620,Stimulus,presented,5
+4724,Keyboard,received,49,wait
+4724,stdout,received,'key: 49, rt:104'
+4765,Stimulus,presented,0
+4766,Stimulus,presented,6
+4882,Keyboard,received,49,wait
+4882,stdout,received,'key: 49, rt:115'
+4891,Stimulus,presented,0
+4892,Stimulus,presented,7
+5030,Keyboard,received,49,wait
+5030,stdout,received,'key: 49, rt:137'
+5072,Stimulus,presented,0
+5074,Stimulus,presented,8
+5180,Keyboard,received,49,wait
+5180,stdout,received,'key: 49, rt:105'
+5221,Stimulus,presented,0
+5223,Stimulus,presented,9
+5280,Keyboard,received,49,wait
+5280,stdout,received,'key: 49, rt:56'
+5286,Stimulus,presented,0
+5287,Stimulus,presented,10
+5458,Keyboard,received,49,wait
+5458,stdout,received,'key: 49, rt:170'
+5499,Stimulus,presented,0
+5500,Stimulus,presented,11
+5630,Keyboard,received,49,wait
+5630,stdout,received,'key: 49, rt:129'
+5635,Stimulus,presented,0
+5637,Stimulus,presented,12
+5758,Keyboard,received,49,wait
+5758,stdout,received,'key: 49, rt:120'
+5798,Stimulus,presented,0
+5800,Stimulus,presented,13
+5902,Keyboard,received,49,wait
+5902,stdout,received,'key: 49, rt:101'
+5943,Stimulus,presented,0
+5945,Stimulus,presented,14
+6080,Keyboard,received,49,wait
+6080,stdout,received,'key: 49, rt:134'
+6119,Stimulus,presented,0
+6122,Stimulus,presented,15
+6258,Keyboard,received,49,wait
+6258,stdout,received,'key: 49, rt:135'
+6298,Stimulus,presented,0
+6300,Stimulus,presented,16
+6430,Keyboard,received,49,wait
+6430,stdout,received,'key: 49, rt:130'
+6448,Stimulus,presented,0
+6450,Stimulus,presented,17
+6604,Keyboard,received,49,wait
+6604,stdout,received,'key: 49, rt:154'
+6644,Stimulus,presented,0
+6645,Stimulus,presented,18
+6774,Keyboard,received,49,wait
+6774,stdout,received,'key: 49, rt:128'
+6812,Stimulus,presented,0
+6814,Stimulus,presented,19
+6936,Keyboard,received,49,wait
+6936,stdout,received,'key: 49, rt:121'
+6940,Stimulus,presented,0
+6941,Stimulus,presented,20
+7116,Keyboard,received,49,wait
+7117,stdout,received,'key: 49, rt:175'
+7120,Stimulus,presented,0
+7122,Stimulus,presented,21
+7288,Keyboard,received,49,wait
+7288,stdout,received,'key: 49, rt:165'
+7327,Stimulus,presented,0
+7329,Stimulus,presented,22
+7606,Keyboard,received,49,wait
+7606,stdout,received,'key: 49, rt:276'
+7610,Stimulus,presented,0
+7611,Stimulus,presented,23
+7864,Keyboard,received,49,wait
+7864,stdout,received,'key: 49, rt:252'
+7905,Stimulus,presented,0
+7907,Stimulus,presented,24
+9574,Keyboard,received,49,wait
+9574,stdout,received,'key: 49, rt:1667'
+9578,Stimulus,presented,0
+9581,Stimulus,presented,25
+9890,Keyboard,received,49,wait
+9890,stdout,received,'key: 49, rt:308'
+9893,Stimulus,presented,0
+9894,Stimulus,presented,26
+10182,Keyboard,received,49,wait
+10182,stdout,received,'key: 49, rt:287'
+10185,Stimulus,presented,0
+10186,Stimulus,presented,27
+10418,Keyboard,received,49,wait
+10418,stdout,received,'key: 49, rt:231'
+10421,Stimulus,presented,0
+10422,Stimulus,presented,28
+10610,Keyboard,received,49,wait
+10610,stdout,received,'key: 49, rt:187'
+10613,Stimulus,presented,0
+10614,Stimulus,presented,29
+10778,Keyboard,received,49,wait
+10778,stdout,received,'key: 49, rt:163'
+10781,Stimulus,presented,0
+10782,Stimulus,presented,30
+10930,Keyboard,received,49,wait
+10930,stdout,received,'key: 49, rt:148'
+10933,Stimulus,presented,0
+10935,Stimulus,presented,31
+11122,Keyboard,received,49,wait
+11122,stdout,received,'key: 49, rt:186'
+11125,Stimulus,presented,0
+11126,Stimulus,presented,32
+11276,Keyboard,received,49,wait
+11276,stdout,received,'key: 49, rt:149'
+11279,Stimulus,presented,0
+11280,Stimulus,presented,33
+11456,Keyboard,received,49,wait
+11456,stdout,received,'key: 49, rt:175'
+11458,Stimulus,presented,0
+11460,Stimulus,presented,34
+11607,Keyboard,received,49,wait
+11608,stdout,received,'key: 49, rt:147'
+11610,Stimulus,presented,0
+11611,Stimulus,presented,35
+11783,Keyboard,received,49,wait
+11784,stdout,received,'key: 49, rt:171'
+11786,Stimulus,presented,0
+11787,Stimulus,presented,36
+12071,Keyboard,received,50,wait
+12071,stdout,received,'key: 50, rt:284'
+12109,Stimulus,presented,0
+12110,Stimulus,presented,37
+12230,Keyboard,received,50,wait
+12230,stdout,received,'key: 50, rt:119'
+12266,Stimulus,presented,0
+12267,Stimulus,presented,38
+12391,Keyboard,received,50,wait
+12391,stdout,received,'key: 50, rt:124'
+12429,Stimulus,presented,0
+12430,Stimulus,presented,39
+13513,Keyboard,received,50,wait
+13513,stdout,received,'key: 50, rt:1083'
+13552,Stimulus,presented,0
+13553,Stimulus,presented,40
+13657,Keyboard,received,50,wait
+13657,stdout,received,'key: 50, rt:103'
+13662,Stimulus,presented,0
+13663,Stimulus,presented,41
+13803,Keyboard,received,50,wait
+13803,stdout,received,'key: 50, rt:140'
+13806,Stimulus,presented,0
+13807,Stimulus,presented,42
+13949,Keyboard,received,50,wait
+13949,stdout,received,'key: 50, rt:142'
+13986,Stimulus,presented,0
+13988,Stimulus,presented,43
+14073,Keyboard,received,50,wait
+14073,stdout,received,'key: 50, rt:84'
+14076,Stimulus,presented,0
+14078,Stimulus,presented,44
+14201,Keyboard,received,50,wait
+14201,stdout,received,'key: 50, rt:123'
+14240,Stimulus,presented,0
+14241,Stimulus,presented,45
+14370,Keyboard,received,1073741903,wait
+14370,stdout,received,'key: 1073741903, rt:129'
+14371,Stimulus,presented,0
+14372,Stimulus,presented,45
+14975,Keyboard,received,1073741903,wait
+14975,stdout,received,'key: 1073741903, rt:603'
+14976,Stimulus,presented,0
+14977,Stimulus,presented,45
+15159,Keyboard,received,1073741903,wait
+15159,stdout,received,'key: 1073741903, rt:181'
+15160,Stimulus,presented,0
+15161,Stimulus,presented,45
+15325,Keyboard,received,1073741903,wait
+15325,stdout,received,'key: 1073741903, rt:164'
+15326,Stimulus,presented,0
+15327,Stimulus,presented,45
+15593,Keyboard,received,1073741904,wait
+15593,stdout,received,'key: 1073741904, rt:266'
+15594,Stimulus,presented,0
+15596,Stimulus,presented,45
+15757,Keyboard,received,1073741904,wait
+15757,stdout,received,'key: 1073741904, rt:161'
+15758,Stimulus,presented,0
+15761,Stimulus,presented,45
+15929,Keyboard,received,1073741906,wait
+15929,stdout,received,'key: 1073741906, rt:168'
+15930,Stimulus,presented,0
+15931,Stimulus,presented,45
+16099,Keyboard,received,1073741906,wait
+16099,stdout,received,'key: 1073741906, rt:168'
+16100,Stimulus,presented,0
+16101,Stimulus,presented,45
+16397,Keyboard,received,1073741905,wait
+16397,stdout,received,'key: 1073741905, rt:296'
+16398,Stimulus,presented,0
+16399,Stimulus,presented,45
+16568,Keyboard,received,1073741905,wait
+16568,stdout,received,'key: 1073741905, rt:168'
+16568,Stimulus,presented,0
+16569,Stimulus,presented,45
+16715,Keyboard,received,1073741905,wait
+16715,stdout,received,'key: 1073741905, rt:145'
+16716,Stimulus,presented,0
+16718,Stimulus,presented,45
+18464,Keyboard,received,32,wait
+18464,stdout,received,'key: 32, rt:1745'
+18464,Experiment,ended
+18636,stderr,received,'Traceback (most recent call last):'
+18636,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 66, in <module>'
+18637,stderr,received,'    run_trial()'
+18637,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 46, in run_trial'
+18637,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys + [K_SPACE]) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+18637,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+18637,stderr,received,'    self.clear()'
+18637,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+18637,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+18637,stderr,received,'pygame.error: video system not initialized'
