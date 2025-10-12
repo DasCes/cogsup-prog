@@ -1,0 +1,45 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 23:20:05
+#sha1: 4cc484
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1286,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1286,design,logged,
+1286,Experiment,started
+1301,Stimulus,presented,0
+5894,Keyboard,received,32,wait
+5939,Stimulus,presented,1
+5942,Stimulus,presented,2
+7031,Keyboard,received,1073741904,wait
+7031,stdout,received,'key: 1073741904, rt:1089'
+7032,Stimulus,presented,1
+7033,Stimulus,presented,2
+7375,Keyboard,received,1073741906,wait
+7375,stdout,received,'key: 1073741906, rt:341'
+7376,Stimulus,presented,1
+7377,Stimulus,presented,2
+7567,Keyboard,received,1073741905,wait
+7567,stdout,received,'key: 1073741905, rt:189'
+7568,Stimulus,presented,1
+7569,Stimulus,presented,2
+7731,Keyboard,received,1073741905,wait
+7731,stdout,received,'key: 1073741905, rt:161'
+7731,Stimulus,presented,1
+7733,Stimulus,presented,2
+8303,Keyboard,received,32,wait
+8303,stdout,received,'key: 32, rt:569'
+8303,Experiment,ended
+8464,stderr,received,'Traceback (most recent call last):'
+8464,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 87, in <module>'
+8464,stderr,received,'    run_trial()'
+8464,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in run_trial'
+8464,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+8464,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+8465,stderr,received,'    self.clear()'
+8465,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+8465,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+8465,stderr,received,'pygame.error: video system not initialized'

@@ -34,6 +34,23 @@ def adjust_circle(circle, key, displacement):
 
 def run_trial():
 
+    side_text = stimuli.TextScreen(
+        heading="Blind Spot Experiment",
+        text="Instructions:\n\n"
+             "1. Decide what eye you want to test\n"
+             "2. Press l or r\n"
+    )
+    side_text.present()
+    side = exp.keyboard.wait(keys=[ord('l'), ord('r')])
+
+    if side == ord('l'):
+        fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[-500, 0])
+        fixation.preload()
+    else:
+        fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[500, 0])
+        fixation.preload()
+
+
     instruction_text = stimuli.TextScreen(
         heading="Blind Spot Experiment",
         text="Instructions:\n\n"
@@ -48,8 +65,7 @@ def run_trial():
     instruction_text.present()
     exp.keyboard.wait(keys=[K_SPACE])
 
-    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[500, 0])
-    fixation.preload()
+
 
     radius = 75
     circle = make_circle(radius)

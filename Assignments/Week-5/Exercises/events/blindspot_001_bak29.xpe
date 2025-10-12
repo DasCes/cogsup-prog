@@ -1,0 +1,77 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:25:02
+#sha1: 4cc484
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1689,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1689,design,logged,
+1689,Experiment,started
+1701,Stimulus,presented,0
+2458,Keyboard,received,32,wait
+2506,Stimulus,presented,1
+2507,Stimulus,presented,2
+3607,Keyboard,received,1073741904,wait
+3607,stdout,received,'key: 1073741904, rt:1099'
+3607,Stimulus,presented,1
+3608,Stimulus,presented,2
+3754,Keyboard,received,1073741904,wait
+3754,stdout,received,'key: 1073741904, rt:145'
+3754,Stimulus,presented,1
+3756,Stimulus,presented,2
+4038,Keyboard,received,1073741906,wait
+4038,stdout,received,'key: 1073741906, rt:282'
+4039,Stimulus,presented,1
+4040,Stimulus,presented,2
+4220,Keyboard,received,1073741906,wait
+4220,stdout,received,'key: 1073741906, rt:179'
+4221,Stimulus,presented,1
+4222,Stimulus,presented,2
+4472,Keyboard,received,1073741905,wait
+4472,stdout,received,'key: 1073741905, rt:250'
+4473,Stimulus,presented,1
+4475,Stimulus,presented,2
+4629,Keyboard,received,1073741905,wait
+4629,stdout,received,'key: 1073741905, rt:154'
+4630,Stimulus,presented,1
+4632,Stimulus,presented,2
+4894,Keyboard,received,1073741903,wait
+4894,stdout,received,'key: 1073741903, rt:261'
+4895,Stimulus,presented,1
+4896,Stimulus,presented,2
+5055,Keyboard,received,1073741903,wait
+5055,stdout,received,'key: 1073741903, rt:158'
+5056,Stimulus,presented,1
+5057,Stimulus,presented,2
+6266,Keyboard,received,50,wait
+6267,stdout,received,'key: 50, rt:1209'
+6309,Stimulus,presented,1
+6310,Stimulus,presented,3
+6405,Keyboard,received,50,wait
+6405,stdout,received,'key: 50, rt:94'
+6410,Stimulus,presented,1
+6413,Stimulus,presented,4
+6654,Keyboard,received,49,wait
+6654,stdout,received,'key: 49, rt:241'
+6696,Stimulus,presented,1
+6697,Stimulus,presented,5
+6796,Keyboard,received,49,wait
+6796,stdout,received,'key: 49, rt:98'
+6801,Stimulus,presented,1
+6803,Stimulus,presented,6
+7133,Keyboard,received,32,wait
+7133,stdout,received,'key: 32, rt:329'
+7133,Experiment,ended
+7346,stderr,received,'Traceback (most recent call last):'
+7346,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 87, in <module>'
+7347,stderr,received,'    run_trial()'
+7347,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in run_trial'
+7347,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+7347,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+7350,stderr,received,'    self.clear()'
+7350,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+7350,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+7350,stderr,received,'pygame.error: video system not initialized'
