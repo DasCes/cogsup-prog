@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:54:07
+#sha1: 2a7a2e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11213,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+11213,design,logged,
+11213,Experiment,started
+11241,Stimulus,presented,0
+11830,Keyboard,received,114,wait
+11830,stdout,received,'side 114'
+11895,Stimulus,presented,2
+12559,Keyboard,received,32,wait
+12599,Stimulus,presented,1
+12604,Stimulus,presented,3
+13640,Keyboard,received,1073741904,wait
+13640,stdout,received,'key: 1073741904, rt:1035'
+13641,Stimulus,presented,1
+13652,Stimulus,presented,3
+14019,Keyboard,received,32,wait
+14019,stdout,received,'key: 32, rt:367'
+14019,Experiment,ended
+14058,Data,saved
+14078,Stimulus,presented,4
+17463,stderr,received,'Traceback (most recent call last):'
+17463,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 114, in <module>'
+17464,stderr,received,'    run_trial()'
+17464,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 92, in run_trial'
+17464,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+17464,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+17464,stderr,received,'    self.clear()'
+17464,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+17464,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+17464,stderr,received,'pygame.error: video system not initialized'

@@ -1,0 +1,58 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:57:55
+#sha1: 609606
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11658,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+11658,design,logged,
+11658,Experiment,started
+11683,Stimulus,presented,0
+12302,Keyboard,received,108,wait
+12302,stdout,received,'side 108'
+12326,Stimulus,presented,2
+12618,Keyboard,received,32,wait
+12659,Stimulus,presented,1
+12679,Stimulus,presented,3
+13516,Keyboard,received,1073741906,wait
+13516,stdout,received,'key: 1073741906, rt:836'
+13517,Stimulus,presented,1
+13526,Stimulus,presented,3
+13688,Keyboard,received,1073741906,wait
+13688,stdout,received,'key: 1073741906, rt:161'
+13688,Stimulus,presented,1
+13699,Stimulus,presented,3
+13894,Keyboard,received,1073741905,wait
+13894,stdout,received,'key: 1073741905, rt:194'
+13895,Stimulus,presented,1
+13908,Stimulus,presented,3
+14022,Keyboard,received,1073741904,wait
+14022,stdout,received,'key: 1073741904, rt:113'
+14022,Stimulus,presented,1
+14040,Stimulus,presented,3
+14260,Keyboard,received,1073741904,wait
+14260,stdout,received,'key: 1073741904, rt:220'
+14261,Stimulus,presented,1
+14272,Stimulus,presented,3
+14468,Keyboard,received,1073741903,wait
+14468,stdout,received,'key: 1073741903, rt:196'
+14469,Stimulus,presented,1
+14498,Stimulus,presented,3
+14702,Keyboard,received,32,wait
+14702,stdout,received,'key: 32, rt:203'
+14702,Experiment,ended
+14740,Data,saved
+14750,Stimulus,presented,4
+18103,stderr,received,'Traceback (most recent call last):'
+18103,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 116, in <module>'
+18103,stderr,received,'    run_trial()'
+18103,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 94, in run_trial'
+18103,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
+18103,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
+18104,stderr,received,'    self.clear()'
+18104,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
+18104,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
+18104,stderr,received,'pygame.error: video system not initialized'

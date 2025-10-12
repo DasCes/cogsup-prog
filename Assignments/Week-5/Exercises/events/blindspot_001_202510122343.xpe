@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:43:33
+#sha1: 607fbb
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+13990,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+13990,design,logged,
+13990,Experiment,started
+14016,Stimulus,presented,0
+14421,Keyboard,received,114,wait
+14453,Stimulus,presented,2
+16656,Keyboard,received,32,wait
+16696,Stimulus,presented,1
+16705,Stimulus,presented,3
+17285,Keyboard,received,32,wait
+17285,stdout,received,'key: 32, rt:579'
+17285,Experiment,ended
+17322,stderr,received,'Traceback (most recent call last):'
+17322,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 106, in <module>'
+17322,stderr,received,'    run_trial()'
+17322,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 95, in run_trial'
+17322,stderr,received,'    control.end()'
+17322,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 336, in end'
+17323,stderr,received,'    experiment.data.save()'
+17323,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 575, in save'
+17323,stderr,received,'    self.variable_names + defaults.outputfile_eol))'
+17323,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 495, in variable_names'
+17323,stderr,received,'    vn = self.delimiter.join(self._variable_names)'
+17323,stderr,received,'TypeError: sequence item 0: expected str instance, int found'
+17323,stderr,received,'Exception ignored in atexit callback: <bound method DataFile.save of <expyriment.io._files.DataFile object at 0x00000213243AFE50>>'
+17324,stderr,received,'Traceback (most recent call last):'
+17324,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 549, in save'
+17324,stderr,received,'    os.rename(self._fullpath, tmpfile_name)'
+17324,stderr,received,"PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'data\\\\blindspot_001_202510122343.xpd' -> 'data\\\\13faa719-729e-4cc0-ae02-2b25eaefec29'"

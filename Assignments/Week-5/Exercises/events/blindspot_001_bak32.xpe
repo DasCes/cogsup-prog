@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:33:47
+#sha1: 3585f5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3423,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+3423,design,logged,
+3423,Experiment,started
+3433,Stimulus,presented,0
+5469,Keyboard,received,114,wait
+5480,Stimulus,presented,2
+6555,Keyboard,received,32,wait
+6594,Stimulus,presented,1
+6596,Stimulus,presented,3
+6914,Keyboard,received,32,wait
+6914,stdout,received,'key: 32, rt:318'
+6914,Experiment,ended
+6916,stderr,received,'Traceback (most recent call last):'
+6916,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 105, in <module>'
+6917,stderr,received,'    run_trial()'
+6917,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 94, in run_trial'
+6917,stderr,received,'    control.end()'
+6917,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 336, in end'
+6917,stderr,received,'    experiment.data.save()'
+6917,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 575, in save'
+6918,stderr,received,'    self.variable_names + defaults.outputfile_eol))'
+6918,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 495, in variable_names'
+6918,stderr,received,'    vn = self.delimiter.join(self._variable_names)'
+6918,stderr,received,'TypeError: sequence item 3: expected str instance, ellipsis found'
+6919,stderr,received,'Exception ignored in atexit callback: <bound method DataFile.save of <expyriment.io._files.DataFile object at 0x000001D42C72FDC0>>'
+6919,stderr,received,'Traceback (most recent call last):'
+6919,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 549, in save'
+6919,stderr,received,'    os.rename(self._fullpath, tmpfile_name)'
+6919,stderr,received,"PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'data\\\\blindspot_001.xpd' -> 'data\\\\1814f21c-0df7-4548-84b5-c4df273e9a56'"

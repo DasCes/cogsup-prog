@@ -10,7 +10,7 @@ from expyriment.misc.constants import K_SPACE, K_UP, K_DOWN, K_LEFT, K_RIGHT, K_
 
 """ Global settings """
 exp = design.Experiment(name="Blindspot", background_colour=C_WHITE, foreground_colour=C_BLACK)
-control.set_develop_mode()
+# control.set_develop_mode()
 control.initialize(exp)
 
 """ Stimuli """
@@ -34,6 +34,9 @@ def adjust_circle(circle, key, displacement):
 
 def run_trial():
 
+
+    exp.data.add_variable_names(["eye", "key_pressed", "raidus", "x_cord", "y_cord"])
+
     side_text = stimuli.TextScreen(
         heading="Blind Spot Experiment",
         text="Instructions:\n\n"
@@ -41,7 +44,11 @@ def run_trial():
              "2. Press l or r\n"
     )
     side_text.present()
-    side = exp.keyboard.wait(keys=[ord('l'), ord('r')])
+    side, rt = exp.keyboard.wait(keys=[ord('l'), ord('r')])
+
+    print("side", side)
+    side_data = "left"
+
 
     if side == ord('l'):
         fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[-500, 0])
@@ -49,6 +56,8 @@ def run_trial():
     else:
         fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[500, 0])
         fixation.preload()
+        side_data = "right"
+
 
 
     instruction_text = stimuli.TextScreen(
@@ -77,11 +86,14 @@ def run_trial():
     sizes_radius = {ord('1'): -3, ord('2'): +3} #here i want to set the size of increment or decrement of radius and pass it in the check inside while
     useful_keys = [K_UP, K_DOWN, K_LEFT, K_RIGHT, K_SPACE] + list(sizes_radius.keys())
 
+    exp.data.add([side_data, 0, radius, 0, 0])
+
     # print(useful_keys)
     #TODO place here i think a loop where you get input for move the circle
     while True:
         key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'
         print(f"key: {key}, rt:{rt}")
+        exp.data.add([side_data, key, circle.radius, circle.position[0], circle.position[1]])
 
         if key in [K_UP, K_DOWN, K_LEFT, K_RIGHT]:
             adjust_circle(circle, key, displacement)

@@ -1,0 +1,118 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 23:36:58
+#sha1: 607fbb
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+14424,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+14424,design,logged,
+14424,Experiment,started
+14447,Stimulus,presented,0
+16120,Keyboard,received,108,wait
+16148,Stimulus,presented,2
+16996,Keyboard,received,32,wait
+17036,Stimulus,presented,1
+17054,Stimulus,presented,3
+19400,Keyboard,received,1073741904,wait
+19400,stdout,received,'key: 1073741904, rt:2346'
+19400,Stimulus,presented,1
+19411,Stimulus,presented,3
+19539,Keyboard,received,1073741904,wait
+19539,stdout,received,'key: 1073741904, rt:128'
+19539,Stimulus,presented,1
+19559,Stimulus,presented,3
+19686,Keyboard,received,1073741906,wait
+19686,stdout,received,'key: 1073741906, rt:127'
+19686,Stimulus,presented,1
+19706,Stimulus,presented,3
+19840,Keyboard,received,1073741906,wait
+19840,stdout,received,'key: 1073741906, rt:134'
+19840,Stimulus,presented,1
+19843,Stimulus,presented,3
+20051,Keyboard,received,1073741905,wait
+20051,stdout,received,'key: 1073741905, rt:207'
+20051,Stimulus,presented,1
+20063,Stimulus,presented,3
+20204,Keyboard,received,1073741905,wait
+20204,stdout,received,'key: 1073741905, rt:140'
+20205,Stimulus,presented,1
+20208,Stimulus,presented,3
+20422,Keyboard,received,1073741904,wait
+20422,stdout,received,'key: 1073741904, rt:214'
+20423,Stimulus,presented,1
+20425,Stimulus,presented,3
+20598,Keyboard,received,1073741904,wait
+20598,stdout,received,'key: 1073741904, rt:172'
+20599,Stimulus,presented,1
+20610,Stimulus,presented,3
+20744,Keyboard,received,1073741904,wait
+20744,stdout,received,'key: 1073741904, rt:134'
+20745,Stimulus,presented,1
+20749,Stimulus,presented,3
+21136,Keyboard,received,1073741903,wait
+21136,stdout,received,'key: 1073741903, rt:387'
+21137,Stimulus,presented,1
+21148,Stimulus,presented,3
+21290,Keyboard,received,1073741903,wait
+21290,stdout,received,'key: 1073741903, rt:142'
+21291,Stimulus,presented,1
+21311,Stimulus,presented,3
+21458,Keyboard,received,1073741903,wait
+21458,stdout,received,'key: 1073741903, rt:147'
+21458,Stimulus,presented,1
+21461,Stimulus,presented,3
+21626,Keyboard,received,1073741903,wait
+21626,stdout,received,'key: 1073741903, rt:164'
+21626,Stimulus,presented,1
+21642,Stimulus,presented,3
+22366,Keyboard,received,49,wait
+22366,stdout,received,'key: 49, rt:724'
+22407,Stimulus,presented,1
+22411,Stimulus,presented,4
+22636,Keyboard,received,49,wait
+22636,stdout,received,'key: 49, rt:225'
+22675,Stimulus,presented,1
+22693,Stimulus,presented,5
+23008,Keyboard,received,50,wait
+23008,stdout,received,'key: 50, rt:315'
+23048,Stimulus,presented,1
+23051,Stimulus,presented,6
+23167,Keyboard,received,50,wait
+23167,stdout,received,'key: 50, rt:115'
+23207,Stimulus,presented,1
+23222,Stimulus,presented,7
+23325,Keyboard,received,50,wait
+23325,stdout,received,'key: 50, rt:102'
+23330,Stimulus,presented,1
+23347,Stimulus,presented,8
+23460,Keyboard,received,50,wait
+23460,stdout,received,'key: 50, rt:113'
+23500,Stimulus,presented,1
+23513,Stimulus,presented,9
+23560,Keyboard,received,50,wait
+23560,stdout,received,'key: 50, rt:46'
+23566,Stimulus,presented,1
+23588,Stimulus,presented,10
+23849,Keyboard,received,32,wait
+23849,stdout,received,'key: 32, rt:260'
+23849,Experiment,ended
+23886,stderr,received,'Traceback (most recent call last):'
+23886,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 106, in <module>'
+23886,stderr,received,'    run_trial()'
+23887,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 95, in run_trial'
+23887,stderr,received,'    control.end()'
+23887,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 336, in end'
+23887,stderr,received,'    experiment.data.save()'
+23887,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 575, in save'
+23887,stderr,received,'    self.variable_names + defaults.outputfile_eol))'
+23887,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 495, in variable_names'
+23888,stderr,received,'    vn = self.delimiter.join(self._variable_names)'
+23888,stderr,received,'TypeError: sequence item 0: expected str instance, int found'
+23888,stderr,received,'Exception ignored in atexit callback: <bound method DataFile.save of <expyriment.io._files.DataFile object at 0x0000011428DDFE50>>'
+23888,stderr,received,'Traceback (most recent call last):'
+23888,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 549, in save'
+23888,stderr,received,'    os.rename(self._fullpath, tmpfile_name)'
+23888,stderr,received,"PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'data\\\\blindspot_001_202510122336.xpd' -> 'data\\\\88609ff8-0ae5-41f1-8a2d-4ed94b990251'"

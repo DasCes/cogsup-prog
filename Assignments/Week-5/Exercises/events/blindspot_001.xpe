@@ -1,31 +1,38 @@
 #Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
-#date: Sun Oct 12 2025 23:30:47
-#sha1: 820572
+#date: Sun Oct 12 2025 23:35:38
+#sha1: 080bb2
 #modules: 
 #display: size=(800, 600), window_mode=True, opengl=2
 #os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
 Time,Type,Event,Value,Detail,Detail2
-2657,design,log,
+1581,design,log,
 #design: #exp: Blindspot
 #design: block_cnt,block_id,trial_cnt,trial_id
-2658,design,logged,
-2658,Experiment,started
-2666,Stimulus,presented,0
-4555,Keyboard,received,108,wait
-4567,Stimulus,presented,2
-6499,Keyboard,received,32,wait
-6539,Stimulus,presented,1
-6541,Stimulus,presented,3
-8491,Keyboard,received,32,wait
-8491,stdout,received,'key: 32, rt:1950'
-8491,Experiment,ended
-8683,stderr,received,'Traceback (most recent call last):'
-8683,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 103, in <module>'
-8684,stderr,received,'    run_trial()'
-8684,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 83, in run_trial'
-8684,stderr,received,"    key, rt = exp.keyboard.wait(keys=useful_keys) #i also cant do this... i though that is better if i wait just for the key i need and not for 'a..6..etc'"
-8684,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 348, in wait'
-8684,stderr,received,'    self.clear()'
-8684,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 210, in clear'
-8684,stderr,received,'    pygame.event.clear(pygame.KEYDOWN)'
-8684,stderr,received,'pygame.error: video system not initialized'
+1581,design,logged,
+1581,Experiment,started
+1591,Stimulus,presented,0
+2408,Keyboard,received,108,wait
+2458,Stimulus,presented,2
+3902,Keyboard,received,32,wait
+3943,Stimulus,presented,1
+3945,Stimulus,presented,3
+6815,Keyboard,received,32,wait
+6815,stdout,received,'key: 32, rt:2869'
+6815,Experiment,ended
+6852,stderr,received,'Traceback (most recent call last):'
+6852,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 106, in <module>'
+6852,stderr,received,'    run_trial()'
+6852,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-5\\Exercises\\blindspot.py", line 95, in run_trial'
+6852,stderr,received,'    control.end()'
+6852,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 336, in end'
+6853,stderr,received,'    experiment.data.save()'
+6853,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 575, in save'
+6853,stderr,received,'    self.variable_names + defaults.outputfile_eol))'
+6853,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 495, in variable_names'
+6853,stderr,received,'    vn = self.delimiter.join(self._variable_names)'
+6853,stderr,received,'TypeError: sequence item 0: expected str instance, int found'
+6853,stderr,received,'Exception ignored in atexit callback: <bound method DataFile.save of <expyriment.io._files.DataFile object at 0x00000282BB08FDC0>>'
+6853,stderr,received,'Traceback (most recent call last):'
+6853,stderr,received,'  File "C:\\Users\\USER\\anaconda3\\envs\\machine_learning_general\\lib\\site-packages\\expyriment\\io\\_files.py", line 549, in save'
+6854,stderr,received,'    os.rename(self._fullpath, tmpfile_name)'
+6854,stderr,received,"PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'data\\\\blindspot_001.xpd' -> 'data\\\\c74e3053-264e-43f3-b5d7-fb7d78e4d5fb'"
