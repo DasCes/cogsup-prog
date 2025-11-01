@@ -1,0 +1,67 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sat Nov 01 2025 23:57:59
+#sha1: 5725d0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3548,stdout,received,'*** DEVELOP MODE ***'
+4595,design,log,
+#design: #exp: Stroop Effect
+#design: block_cnt,block_id,trial_cnt,trial_id
+4595,design,logged,
+4595,Experiment,started
+4628,Stimulus,presented,0
+5203,Keyboard,received,32,wait
+5211,Stimulus,presented,1
+5723,Stimulus,presented,2
+6942,Keyboard,received,109,wait
+6948,Stimulus,presented,3
+7954,Stimulus,presented,4
+8459,Stimulus,presented,5
+8873,Keyboard,received,109,wait
+8878,Stimulus,presented,6
+9887,Stimulus,presented,7
+10392,Stimulus,presented,8
+11089,Keyboard,received,109,wait
+11094,Stimulus,presented,9
+12101,Stimulus,presented,10
+12605,Stimulus,presented,11
+12964,Keyboard,received,109,wait
+12985,Stimulus,presented,12
+13989,Stimulus,presented,13
+14497,Stimulus,presented,14
+14744,Keyboard,received,109,wait
+14756,Stimulus,presented,15
+15763,Stimulus,presented,16
+16274,Stimulus,presented,17
+16535,Keyboard,received,109,wait
+16547,Stimulus,presented,18
+17551,Stimulus,presented,19
+18055,Stimulus,presented,20
+18299,Keyboard,received,109,wait
+18319,Stimulus,presented,21
+19332,Stimulus,presented,22
+19842,Stimulus,presented,23
+20151,Keyboard,received,109,wait
+20168,Stimulus,presented,24
+21172,Stimulus,presented,25
+21683,Stimulus,presented,26
+21990,Keyboard,received,109,wait
+22002,Stimulus,presented,27
+23013,Stimulus,presented,28
+23517,Stimulus,presented,29
+24130,Keyboard,received,109,wait
+24140,Stimulus,presented,30
+25144,Stimulus,presented,31
+25648,Stimulus,presented,32
+26360,Keyboard,received,109,wait
+26364,Stimulus,presented,33
+27368,Stimulus,presented,34
+27872,Stimulus,presented,35
+28258,Experiment,paused
+28271,Stimulus,presented,36
+29136,Keyboard,received,y,wait_char
+29136,Experiment,ended
+29167,Data,saved
+29180,Stimulus,presented,36

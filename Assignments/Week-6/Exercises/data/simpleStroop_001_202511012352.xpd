@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpd-file, coding: cp1252
+#date: Sat Nov 01 2025 23:52:45
+#--EXPERIMENT INFO
+#e mainfile: simpleStroop.py
+#e sha1: 74b3fb
+#e modules: 
+#e Experiment: Stroop Effect
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,block,trial_number,trial_type,word_meaning,text_color,RT,accuracy

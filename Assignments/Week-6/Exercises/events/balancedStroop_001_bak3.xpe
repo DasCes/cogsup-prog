@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Nov 02 2025 00:20:17
+#sha1: 894048
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3590,stdout,received,'*** DEVELOP MODE ***'
+4399,design,log,
+#design: #exp: Stroop Effect
+#design: block_cnt,block_id,trial_cnt,trial_id
+4399,design,logged,
+4399,Experiment,started
+4399,stderr,received,'Traceback (most recent call last):'
+4399,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-6\\Exercises\\balancedStroop.py", line 182, in <module>'
+4399,stderr,received,'    run_experiment()'
+4399,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-6\\Exercises\\balancedStroop.py", line 143, in run_experiment'
+4399,stderr,received,'    all_trials = create_trials(32)'
+4399,stderr,received,"NameError: name 'create_trials' is not defined"

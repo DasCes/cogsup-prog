@@ -1,0 +1,99 @@
+#Expyriment 1.0.0 (Python 3.10.14), .xpe-file, coding: cp1252
+#date: Sun Nov 02 2025 00:24:55
+#sha1: 2d97b8
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-909EKFKU', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3533,stdout,received,'*** DEVELOP MODE ***'
+4538,design,log,
+#design: #exp: Balanced Stroop Effect
+#design: block_cnt,block_id,trial_cnt,trial_id
+4538,design,logged,
+4538,Experiment,started
+4567,Stimulus,presented,0
+5090,Keyboard,received,32,wait
+5095,Stimulus,presented,1
+5607,Stimulus,presented,2
+7600,Keyboard,received,103,wait
+7605,Stimulus,presented,3
+8611,Stimulus,presented,4
+9116,Stimulus,presented,5
+9387,Keyboard,received,103,wait
+9400,Stimulus,presented,6
+10408,Stimulus,presented,7
+10918,Stimulus,presented,8
+10992,Keyboard,received,103,wait
+11012,Stimulus,presented,9
+12021,Stimulus,presented,10
+12526,Stimulus,presented,11
+12588,Keyboard,received,103,wait
+12607,Stimulus,presented,12
+13617,Stimulus,presented,13
+14132,Stimulus,presented,14
+14248,Keyboard,received,103,wait
+14265,Stimulus,presented,15
+15277,Stimulus,presented,16
+15788,Stimulus,presented,17
+15866,Keyboard,received,103,wait
+15881,Stimulus,presented,18
+16889,Stimulus,presented,19
+17400,Stimulus,presented,20
+17424,Keyboard,received,103,wait
+17440,Stimulus,presented,21
+18449,Stimulus,presented,22
+18960,Stimulus,presented,23
+19300,Keyboard,received,103,wait
+19315,Stimulus,presented,24
+20320,Stimulus,presented,25
+20827,Stimulus,presented,26
+21072,Keyboard,received,103,wait
+21093,Stimulus,presented,27
+22100,Stimulus,presented,28
+22611,Stimulus,presented,29
+22804,Keyboard,received,103,wait
+22823,Stimulus,presented,30
+23829,Stimulus,presented,31
+24340,Stimulus,presented,32
+24526,Keyboard,received,103,wait
+24538,Stimulus,presented,33
+25543,Stimulus,presented,34
+26049,Stimulus,presented,35
+26244,Keyboard,received,103,wait
+26265,Stimulus,presented,36
+27268,Stimulus,presented,37
+27778,Stimulus,presented,38
+27874,Keyboard,received,103,wait
+27887,Stimulus,presented,39
+28890,Stimulus,presented,40
+29401,Stimulus,presented,41
+29596,Keyboard,received,103,wait
+29616,Stimulus,presented,42
+30626,Stimulus,presented,43
+31130,Stimulus,presented,44
+31164,Keyboard,received,103,wait
+31177,Stimulus,presented,45
+32184,Stimulus,presented,46
+32695,Stimulus,presented,47
+32872,Keyboard,received,103,wait
+32892,Stimulus,presented,48
+33912,Stimulus,presented,49
+38996,Keyboard,received,32,wait
+39016,Stimulus,presented,50
+40342,Keyboard,received,32,wait
+40345,Stimulus,presented,51
+40850,Stimulus,presented,52
+43564,Experiment,paused
+43570,Stimulus,presented,53
+58143,Keyboard,received,n,wait_char
+58143,Experiment,resumed
+58143,Keyboard,received,None,wait
+58143,stderr,received,'Traceback (most recent call last):'
+58143,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-6\\Exercises\\balancedStroop.py", line 202, in <module>'
+58143,stderr,received,'    run_experiment()'
+58143,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-6\\Exercises\\balancedStroop.py", line 175, in run_experiment'
+58144,stderr,received,'    run_trial(trial, block_num, trial_num)'
+58144,stderr,received,'  File "C:\\Users\\USER\\OneDrive\\Desktop\\GITHUB\\cogsup-prog\\Assignments\\Week-6\\Exercises\\balancedStroop.py", line 129, in run_trial'
+58144,stderr,received,'    response_color = RESPONSE_KEYS[key]'
+58144,stderr,received,'KeyError: None'
+58181,Data,saved
