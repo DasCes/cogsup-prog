@@ -51,30 +51,61 @@ N_BLOCKS = 8
 N_TRIALS_IN_BLOCK = 16
 TOTAL_TRIALS = 128
 
+
 def create_balanced_trials(n_trials):
-    """Create a list of trials with random word/color combinations"""
+    """Create balanced congruent and incongruent trials"""
 
+    # Congruent trials: word matches color (4 possibilities)
+    # these are red-RED, blue-BLUE, green-GREEN, orange-ORANGE
+    congruent_trials = [(color, color) for color in COLOR_NAMES]
 
-    all_combinations = list(itertools.product(COLOR_NAMES, COLOR_NAMES))
+    # Incongruent trials: word doesn't match color (12 possibilities)
+    # eg. red-BLUE, red-GREEN, red-ORANGE, blue-RED, blue-GREEN, etc.
+    incongruent_trials = [(word, color) for word in COLOR_NAMES
+                          for color in COLOR_NAMES if word != color]
 
-    n_base_trials = len(all_combinations)
-    repeats = n_trials // n_base_trials
-    remainder = n_trials % n_base_trials
+    # Calculate how many of each type we need for 50/50 split
+    # so basicly 64 will be congruents and 64 incongruent
+    n_per_type = n_trials // 2
 
     trials = []
 
-    for _ in range(repeats):
-        for word, color in all_combinations:
-            trial_type = 'congruent' if word == color else 'incongruent'
+    # Add congruent trials (repeat to get n_per_type trials)
+    repeats_congruent = n_per_type // len(congruent_trials)
+    for _ in range(repeats_congruent):
+        for word, color in congruent_trials:
             trials.append({
-                'trial_type': trial_type,
+                'trial_type': 'congruent',
                 'word': word,
                 'color': color,
-                'correct_key': ord(color[0])  # First letter of color
+                'correct_key': ord(color[0])
+            })
+
+    # Add incongruent trials (repeat to get n_per_type trials)
+    repeats_incongruent = n_per_type // len(incongruent_trials)
+    remainder = n_per_type % len(incongruent_trials)
+
+    for _ in range(repeats_incongruent):
+        for word, color in incongruent_trials:
+            trials.append({
+                'trial_type': 'incongruent',
+                'word': word,
+                'color': color,
+                'correct_key': ord(color[0])
+            })
+
+    # Add remainder incongruent trials if needed
+    if remainder > 0:
+        remaining = random.sample(incongruent_trials, remainder)
+        for word, color in remaining:
+            trials.append({
+                'trial_type': 'incongruent',
+                'word': word,
+                'color': color,
+                'correct_key': ord(color[0])
             })
 
     random.shuffle(trials)
-
     return trials
 
 
@@ -99,12 +130,12 @@ def show_instructions(block_num):
 def show_feedback(is_correct):
     """Show positive or negative feedback"""
     if is_correct:
-        feedback = stimuli.TextLine("CORRECT!", text_size=50, text_colour=C_GREEN)
+        feedback = stimuli.TextLine("CORRECT!", text_size=50, text_colour=C_BLACK)
     else:
-        feedback = stimuli.TextLine("WRONG!", text_size=50, text_colour=C_RED)
+        feedback = stimuli.TextLine("WRONG!", text_size=50, text_colour=C_BLACK)
 
     feedback.present()
-    exp.clock.wait(1000)  # Show for 1 second
+    exp.clock.wait(1000)
 
 
 def run_trial(trial, block_num, trial_num):
