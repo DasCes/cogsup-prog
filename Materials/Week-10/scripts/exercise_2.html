@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exercise 2</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_jspsych_results.csv");
+      }
+    });
+
+    const helloTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: 'Hi! You are going to see a letter (F or J). Press that key on your keyboard to continue. If u are reday to start prey SPACE',
+      choices: [' '] // Press spacebar to continue
+    };
+
+    // Create 6 trials alternating between F and J
+    let keyTrials = [];
+    for (let i = 0; i < 6; i++){
+      const letter = i % 2 === 0 ? 'F' : 'J'; // Alternate between F and J
+
+      const trial = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<div style="font-size: 48px;">${letter}</div>`,
+        choices: [letter.toLowerCase()], // Accept the corresponding key
+        post_trial_gap: 500
+      };
+
+
+      keyTrials.push(trial); // Add to array
+    }
+
+
+    const blankTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '',  // Empty screen
+      choices: 'NO_KEYS',  // No key response needed
+      trial_duration: 500  // Show for 500ms then auto-continue
+    };
+
+
+
+    // Build timeline: instructions + all key trials
+    let timeline = [helloTrial];
+    for (let trial of keyTrials) {
+      timeline.push(trial, blankTrial);
+    }
+
+    jsPsych.run(timeline);
+  </script>
+</html>

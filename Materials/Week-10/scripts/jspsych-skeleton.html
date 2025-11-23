@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      // Define what happens when the experiment ends
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_jspsych_results.csv");
+      }
+
+      /* This command retrieves all the data collected during the experiment
+      (reaction times, responses, etc.) and automatically prompts the user
+      to download it as a CSV file named "demo_jspsych_results.csv". This
+      is how the experimenter collects the results. */
+    });
+
+    const helloTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: 'Hello world!'
+    };
+
+    const restrictedKeyTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: 'Press enter or space!',
+      choices: ['Enter', ' ']
+    };
+
+    let timeline = [helloTrial, restrictedKeyTrial];
+
+    jsPsych.run(timeline);
+  </script>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stroop Task</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "stroop_results.csv");
+      }
+    });
+
+    const helloTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `
+        <p>Welcome to the Stroop Task!</p>
+        <p>You will see color words displayed on the screen.</p>
+        <p>Your task is to press the key corresponding to the COLOR of the text, NOT the word itself.</p>
+        <br>
+        <p>Press:</p>
+        <p>R for Red</p>
+        <p>G for Green</p>
+        <p>B for Blue</p>
+        <p>Y for Yellow</p>
+        <br>
+        <p>Press SPACE to start</p>
+      `,
+      choices: [' ']
+    };
+
+    // Fixation cross trial
+    const fixationTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '<div style="font-size: 60px;">+</div>',
+      choices: 'NO_KEYS',
+      trial_duration: 500
+    };
+
+    // Blank screen trial
+    const blankTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '',
+      choices: 'NO_KEYS',
+      trial_duration: 200
+    };
+
+    // Define Stroop stimuli
+    const stroopStimuli = [
+      // just creat 4 of congrent examples
+      { word: 'RED', color: 'red', correct_key: 'r', congruent: true },
+      { word: 'GREEN', color: 'green', correct_key: 'g', congruent: true },
+      { word: 'BLUE', color: 'blue', correct_key: 'b', congruent: true },
+      { word: 'YELLOW', color: 'yellow', correct_key: 'y', congruent: true },
+
+      // 4 incongruent examples
+      { word: 'RED', color: 'blue', correct_key: 'b', congruent: false },
+      { word: 'GREEN', color: 'yellow', correct_key: 'y', congruent: false },
+      { word: 'BLUE', color: 'red', correct_key: 'r', congruent: false },
+      { word: 'YELLOW', color: 'green', correct_key: 'g', congruent: false }
+    ];
+
+    // Create Stroop trials
+    let stroopTrials = [];
+    for (let i = 0; i < stroopStimuli.length; i++) {
+      const stim = stroopStimuli[i]; //here i go in order so not random just see if works
+
+      const trial = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<p style='color: ${stim.color}; font-size: 48px; font-weight: bold;'>${stim.word}</p>`,
+        choices: ['r', 'g', 'b', 'y'],
+        data: {
+          word: stim.word,
+          color: stim.color,
+          correct_response: stim.correct_key,
+          congruent: stim.congruent
+        }
+      };
+
+      stroopTrials.push(trial);
+    }
+
+    // Build timeline: instructions + (fixation + stroop trial + blank) for each trial
+    let timeline = [helloTrial];
+    for (let trial of stroopTrials) {
+      timeline.push(fixationTrial, trial, blankTrial);
+    }
+
+    jsPsych.run(timeline);
+  </script>
+</html>
